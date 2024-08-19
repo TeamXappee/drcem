@@ -1,0 +1,254 @@
+{
+  "Metadata": {
+    "title": "Cem Baysal - Oral Diagnosis and Radiology Specialist",
+    "description": "Oral Diagnosis and Radiology Specialist."
+  },
+  "Cem": {
+    "name": "Cem Baysal",
+    "title": "Oral Diagnosis and Radiology."
+  },
+  "Nav": {
+    "about": {
+      "name": "About",
+      "sublinks": {
+        "1": {
+          "name": "About Dr. Cem Baysal",
+          "description": "Ranked as one of the best dentists in turkey. According to 'whatclinic.com'",
+          "href": "/about"
+        },
+        "2": {
+          "name": "About the Clinic",
+          "description": "One of the top ranked dental clinics in turkey according to GCR.",
+          "href": "/about/clinic"
+        },
+        "3": {
+          "name": "Our Philosophy",
+          "description": "We are committed for improving smiles and promoting the wellbeing of one patient at a time",
+          "href": "/about/our-philosophy"
+        }
+      }
+    },
+    "services": {
+      "name": "Services"
+    },
+    "faqs": {
+      "name": "FAQs"
+    },
+    "lang": {
+      "name": "Language"
+    },
+
+    "contact": {
+      "name": "Contact",
+      "reachUs": "Reach us",
+      "facebook": "facebook",
+      "instagram": "instagram"
+    }
+  },
+  "Services": {
+    "dental-veneers": {
+      "name": "Dental Veneers",
+      "href": "/dental-veneers",
+      "image": "/services/porcelain-laminate-veneers.jpg",
+      "content": "Porcelain are veneers made of laminate thin shells of colored like teeth porcelain or composite material used to enhance the look of the teeth. They cover the front part of teeth to correct visual flaws such as color change, chipping, fractures, or gaps. This procedure includes teeth planning, perceptions, artificial veneers, connection, and final modifications. Veneers are long-lasting, immune to stains, and look exactly like real teeth. Good dental hygiene and frequent examinations are required for their management. If the teeth that are visible when you smile are causing you pain due to discoloration and disfigurement, you can restore your teeth without touching your natural teeth. You can also restore your teeth after an extremely thin layer of your teeth has erode. For many years, this method has been used to restore uneven, small, broken or uneven teeth. In recent years, improvements in porcelain have made it possible to restore teeth in a more solid, but refined way.",
+      "related": {
+        "1": "/colored-teeth"
+      },
+      "alt": ""
+    },
+    "masseter-botox": {
+      "name": "Masseter Botox",
+      "href": "/masseter-botox",
+      "image": "/services/colored-teeth.jpg",
+      "content": "situation for a dentist concerns people who have teeth that demonstrate unusual yellowing or oxidation. External factors include smoking, food and beverage stains and fundamental causes such as as medication or trauma, decaying teeth, over repairs, and illnesses. Professional cleanings, whitening processes, restorations for the teeth such as crowns or veneers, and other treatments relevant to the cause may all be used in treatment. Diagnosis is critical to effective medical treatment.",
+      "related": {
+        "1": "/bleaching",
+        "2": "/porcelain-laminate-veneers"
+      },
+      "alt": "Colored teeth"
+    },
+    "periodontal-plastic-surgery": {
+      "name": "Periodontal plastic surgery",
+      "href": "/periodontal-plastic-surgery",
+      "image": "/services/bleaching.jpg",
+      "content": "Periodontal plastic surgery aims to improve the appearance of the periodontal along with the surrounding tissues in the oral cavity. Common operations include dental contouring, crown enlargement, dental transplantation, wrinkle augmenting, and soft tissue pigmentation loss. These operations are intended to improve smile design, correct abnormalities, and restore gum wellness. It is critical to speak with an instructed orthodontist to identify the best treatment approach for your specific circumstances.",
+      "related": {},
+      "alt": ""
+    },
+    "dental-implants": {
+      "name": "Dental Implants",
+      "href": "/dental-implants",
+      "image": "/services/implants.jpg",
+      "content": "Dental implants, which are made of titanium and shaped to resemble real tooth origins, provide an ideal choice for replacing lost teeth. With a success record of 95-98%, they offer a permanent, natural-looking repair. The advantages are the maintenance of jaw structure, better dental health, and greater chewing and interaction. Their flexibility enables for single-tooth replacements as well as full-arch repairs. Precise diagnosis, accurate placement, and comprehensive patient care are all essential for success.",
+      "related": {
+        "1": "/porcelain-fillings",
+        "2": "/composite-fillings"
+      },
+      "alt": ""
+    },
+    "crowns-bridges": {
+      "name": "Crowns and Bridges",
+      "href": "/crowns-bridges",
+      "image": "/services/fillings.jpg",
+      "content": "Crowns and bridges are important in dental restoration because they provide solutions for both functional tooth issues. Crowns, which resemble safeguarding caps, replace broken teeth using materials such as porcelain or alloys of metal, assuring longevity and an organic look. Bridges, which act as tooth replacements for the missing parts, are made up of artificial ones that are held together by crowns or implants. They improve the ability to chew while also preventing nearby teeth from moving. they can restore tooth damages that are too large to be filled. As an incidence that one tooth is lost, we can restore the damaged tooth with porcelain. This kind of restoration is known as a bridge. There are two main types of tooth reduction that are used while a tooth is getting ready for crowns. They are: Step-by-step (step-by-step) tooth reduction. Non-Step-By-Step (Step-by-Step) Dentistry. In the non-Step Dentistry, can prepare more cost-effective metal-Supported Crowns and Bridges. If using an aesthetic infrastructure such as Zirconium and Aluminum Oxide, should go with the Step-by-Step Dentistry method. The restorations that are done during the Step-By-Step Dentistry Dentistry process do not put pressure on the gums and therefore offer more appropriate, healthy results that match the nature of the tooth. Today, its preferable Zirconium/Aluminum Oxide Infrastructure Cornea Crowns and Pellucid Cornea Crowns over metal-Supported Cornea Crowns.",
+      "related": {
+        "1": "/services/porcelain-fillings",
+        "2": "/services/composite-fillings"
+      },
+      "alt": "fillings"
+    },
+    "immediate-dental-implant-placement": {
+      "name": "Immediate Dental Implant Placement",
+      "href": "/immediate-dental-implant-placement",
+      "image": "/services/porcelain-fillings.jpg",
+      "content": "Porcelain fillings are ceramic repair for dentistry use that recover decayed teeth. They look like real teeth and are durable and compatible. They are popular because of their cosmetic appeal and ability to preserve the structure of teeth. Porcelain fillings (inlays and onlays) are recommended for bigger holes in the teeth due to its strength, precision fit, and cosmetic appeal. Customized in a manufacturing facility, they are the same color and form as natural teeth, offering a permanent and cosmetically appealing option.",
+      "related": {
+        "1": "/porcelain-laminate-veneers"
+      },
+      "alt": "Porcelain Fillings"
+    },
+    "smile-makeover": {
+      "name": "Smile Makeover",
+      "href": "/smile-makeover",
+      "image": "/services/composite-fillings.jpg",
+      "content": "A smile makeover is a personalised cosmetic dentistry treatment that improves the appearance of your smile. It can include a variety of operations such as tooth whitening, veneers, dental implants, and orthodontics, all designed to address concerns such as discolouration, incorrect alignment, or missing teeth. Treatment possibilities vary depending on the degree of discomfort and may involve bonding to the teeth, crowns and fillings, treatment of root canals, or removal. Quick dental assessment is critical for preventing additional damage and relieving discomfort. They look like real teeth and are durable and compatible. They are popular because of their cosmetic appeal and ability to preserve the structure of teeth. Customized in a manufacturing facility, they are the same color and form as natural teeth, offering a permanent and cosmetically appealing option. The goal is to achieve a beautiful, expressive smile that matches the features of your face and fits with your personal expectations.",
+      "related": {
+        "1": "/fillings"
+      },
+      "alt": "composite-fillings"
+    }
+  },
+  "FAQs": {
+    "title": "FAQ'S",
+    "full-length": "Frequently Asked Questions",
+    "1": {
+      "q": "How do I schedule an appointment?",
+      "a": "You may easily schedule an appointment with us; in two easy approaches  1. Visit our website and select the appointment scheduling tab. day and complete the required fields. Our team will call you to confirm or provide alternatives based on availability. 2. use the WhatsApp icon and our  staff will assist you directly.We are dedicated to providing you with the greatest scheduling experience."
+    },
+    "2": {
+      "q": "What type of dental implants do you offer, and what is the process like? ",
+      "a": "Dental implants, including subperiosteal, zygomatic forms, and endosteal, are surgically implanted in the cheekbone or jaw. After healing, and artificial teeth are installed. Following-up sessions are essential for monitoring and maintenance."
+    },
+    "3": {
+      "q": "How to stop sensitive teeth pain immediately?",
+      "a": "To fast treat sensitive teeth discomfort, use anesthetize toothpaste, wash with warmed salty water, apply a cold compress to the area, avoid acidic meals, brush softly, consider mouth guards for teeth crushing, take pain killers if necessary, and consult a dentist if the pain continues."
+    },
+    "6": {
+      "q": "How long does teeth whitening last?",
+      "a": "Teeth whitening treatments usually last between six months to two years, depending upon the method applied and personal habits. Food coloring, consumption of alcohol, smoking, and brushing and flossing all have an impact on the duration of the whitening. Maintenance procedures may be required to get long-term benefits."
+    },
+    "5": {
+      "q": "what is the difference between crowns and bridges?",
+      "a": "Crowns and bridges are crucial in dental restoration for cosmetic and functional tooth issues. Crowns replace broken teeth with porcelain or metal alloys, while bridges are artificial tooth replacements. Step-by-step dentistry and non-Step-By-Step dentistry methods are used for cost-effective, aesthetic restorations."
+    },
+    "4": {
+      "q": "Dr. Cem also a professor and scientist? How does this expertise benefit patients?",
+      "a": "Dr. Cem Baysal's dual ability as a professor and scientist assists his patients by assuring they receive innovative, research-based care. His work on modern innovative treatments, such as the 'Baysal technique' for sinus lifts, enables safer, more efficient procedures with greater results. His commitment to evidence-based practice guarantees that treatments are based on the most recent scientific findings, and his position as an educator keeps him on the cutting edge of dental developments. Dr. Baysal's innovative, research-based, and extensive expertise allow him to give integrative and highly efficient care that is personalised to each patient's specific needs."
+    }
+  },
+  "Home": {
+    "hero": {
+      "h1": "BE. CONFIDENT.",
+      "h2": "Experience World-Class Dental Care with Dr. Cem Baysal.",
+      "cta1": "whatclinic.com",
+      "cta2": "Book an appointment"
+    },
+    "services": {
+      "h1": "Discover our services",
+      "h2": "We offer a wide range of dental services to meet your needs."
+    },
+    "map": {
+      "h1": "Find us on the map",
+      "address": "Hacı Emin Efendi Street Eserim Apt. No 64 Kat: 2 Daire: 8-34365 - Teşvikiye, Nişantaşı, Istanbul, 34365 | Apt. No 64 Floor 2 Flat: 8-34365 - Teşvikiye, Nişantaşı, Istanbul,34365"
+    }
+  },
+  "Reviews": {
+    "title": "What our patients say",
+    "data": {
+      "5": {
+        "name": "Alan DaCosta",
+        "picture": "https://lh3.googleusercontent.com/a-/ALV-UjU2yVJCx2nKa9syPWdn88vgGhdarDEBBipqK0AbJHTy2Jc=w48-h48-p-rp-mo-ba2-br100",
+        "content": "I travel from Scandinavia to visit dr Cem his work is excellent , and team are efficient and polite .he treats his clients in a clam and understanding manor , I had a bone graft  wisdom tooth extraction and an implant done . Zero pain … I would and have recommend his services to any one who wishes to listen . I feel very privileged to have some one with dual doctorates and a lecturer from the university to work on me . 5 stars",
+        "month": "1",
+        "year": "2024"
+      },
+      "2": {
+        "name": "Miracle Adoh",
+        "picture": "https://lh3.googleusercontent.com/a-/ALV-UjVNrWLawAsGay2F3GyE7cgRyStSLk02JdgbTROSDPkvmg=w48-h48-p-rp-mo-br100",
+        "content": "The Dr. is super chill and suggests treatments that genuinely help, not just to make a buck. Many Turkish dentists pushed veneers, but Dr. Cem suggested Invisalign, and I saw changes in under 2 months. Treatment will wrap up in 4 months!",
+        "month": "2",
+        "year": "2024"
+      },
+      "3": {
+        "name": "Asena Kok Yucebilgic",
+        "picture": "https://lh3.googleusercontent.com/a/ACg8ocLrgEPltHWLyJVpxIk-oqDa6E-Ekx1R8Cjky44M4jkb=w48-h48-p-rp-mo-ba5-br100",
+        "content": "Dr Cem Baysal is my dentist since 2009. Even after I moved to Minnesota/USA in 2017, I still go to him for any issues and don't have coverage in the USA. He is such a great professional. He does everything perfect and so smooth.  I had an implant this summer without any issue. I went to eat kebap after that directly from his office. In 13 years, nothing happened to my fillings that he made 13 years ago, he removed all of my wisdom teeth with operation and I could go eating after it, too. I can not trust anybody else. He is the best!!",
+        "month": "1",
+        "year": "2023"
+      },
+      "4": {
+        "name": "Sabina",
+        "picture": "https://lh3.googleusercontent.com/a-/ALV-UjVJjHmrAelZUHlG7JhhWHfACsCChBlNZTV32CNUrHrZKQQ=w48-h48-p-rp-mo-br100",
+        "content": "I was very lucky to get to this professional. I had one implant done this summer. Everything went very smooth from the beginning. Dr. Cem Baysal and his team will make sure you feel yourself welcomed and secure. It's very rare to see such a friendly environment. They are very attentive to the details and do their job perfectly! Dr.Baysal is brilliant, as soon as you see him you know you are in good hands. Knowledgeable, experienced and knows what he is doing. I would definitely recommend Dr.Baysal and his team! I'm very happy with my new tooth :)",
+        "month": "4",
+        "year": "2023"
+      },
+      "1": {
+        "name": "Lily Olaru",
+        "picture": "https://lh3.googleusercontent.com/a-/ALV-UjUBhpbNohi53WITg2E8CU5N1DgwAiB_hKLs-_9XMD8b3eA=w48-h48-p-rp-mo-br100",
+        "content": "Dr. Cem Baysal and his exceptional team provided an outstanding dental experience which included dental implants and crowns. The warm and friendly atmosphere of the clinic, coupled with Dr. Baysal's professional expertise, made me feel at ease throughout the process. The dental implant surgery was painless and efficient, thanks to Dr. Baysal's precision and the amazing assistants' support. The fitting of the crowns was equally seamless, with great attention to detail, resulting in a beautiful and natural-looking smile. Dr. Baysal's dedication to personalized care and passion for his craft made the entire experience truly exceptional. I highly recommend Dr. Baysal and his team for top-tier dental implant and crown procedures, I love this place, their office was very clean, the staff is super friendly and they are very accommodating, doing whatever it took to make me feel comfortable and at ease during my visit.  Dr. Cem Baysal is a very empathetic dentist and got a genuine plan to treat my issues.  It was the best experience I've had at a medical office and I'm actually looking forward to my next visit. Thank you for helping me."
+      },
+      "month": "4",
+      "year": "2023"
+    }
+  },
+  "About": {
+    "title": "A Journey of Continuous Innovation",
+    "content": {
+      "1": {
+        "bold": "Oral Diagnostician and innovative thinking:",
+        "text": "Dr. Baysal's journey exemplifies how different experiences can shape remarkable careers, as evidenced by hundreds of favourable patient reviews. Patients from Turkey and Europe trust him to manage their cases because of his unique perspective on his area of expertise."
+      },
+      "2": {
+        "bold": "Dr. Cem Leading Dentistry via Innovation and Passion",
+        "text": "In the world of dentistry, Dr. Cem is one of only a few double branch specialists, especially one of the very rare, combining of academic proficiency, clinical experience, and inventive attitude. With a career extending three decades, Dr. Cem has not only watched the growth of dental practices, but has actively influenced their future through innovative procedures and unrelenting dedication, by combining radiology and Implantology, resulting very high success in implantology and surgery."
+      }
+    }
+  },
+  "Philosophy": {
+    "title": "Our Philosophy",
+    "subHeader": "Our philosophy at Dr. Cem Baysal's clinic is rooted in a strong foundation of extensive education, professional experience, and an unwavering commitment to excellence. We are dedicated to providing exceptional dental care, founded on principles of excellence and expertise. As a respected member of the Turkish Dental Association and a certified health tourism provider, we uphold the highest international standards of professionalism and quality.",
+    "about": "Our commitment to delivering top-tier dental care ensures that our patients receive exceptional treatment, supported by Dr. Baysal's extensive expertise and dedication to the field. Whether you're interested in Turkey teeth whitening, teeth veneers in Turkey, or a tooth crown, we offer a comprehensive range of services to meet all your dental needs.",
+    "principles": {
+      "title": "principles",
+      "1": {
+        "title": "Focused on patients Approach",
+        "contnet": "Focused on patients Approach: Our patients are at the center of all we do. We priorities open communication, active listening, and understanding each person's needs in order to create strategies for treatment that are customized to their goals and preferences. Each patient receives individual attention, creating confidence and ease in our care."
+      },
+      "2": {
+        "title": "Expertise in Dental Care",
+        "contnet": "expertise in Dental Care: We maintain the highest levels of dental expertise, always expanding our knowledge and abilities to give innovative procedures. From simple cleanings to complex operations, our trained specialists use accuracy and knowledge to achieve optimal results, assuring our patients' long-term oral health."
+      },
+      "3": {
+        "title": "Community Participation and Education",
+        "contnet": "We understand the value of community involvement and patient education in supporting long-term dental health. We enable individuals to take active steps toward maintaining optimal dental habits and making educated oral care decisions through educational initiative programs, instructional seminars, and helpful materials."
+      },
+      "4": {
+        "title": "Continuous Improvement",
+        "contnet": " We are committed to constant enhancement and frequently examine our processes, generate patient feedback, and adapt to changing requirements and expectations. By creating a culture of education and creativity, we aim to exceed every expectation of quality and remain at the top of dental treatment."
+      }
+    },
+    "footer": "At Dr. Cem Dental Clinic, we are committed for improving smiles and promoting the wellbeing of one patient at a time. With a consistent dedication to care, accuracy, and innovation, we motivate you to discover the difference in dental perfection that explains our philosophy in dental treatment."
+  },
+  "Clinic": {
+    "title": "Welcome to Dr Cem Baysal Dental Clinic",
+    "subHeader": "We keep your smile our top priority. Our modern facility provides a welcoming environment and modern technology for all of your dental requirements. Our skilled team delivers specific care and efforts to keep you educated and comfortable during your visit.",
+    "content": {
+      "1": "Welcome to DR Cem Dental Clinic, where we keep your smile our top priority. Our modern facility provides a welcoming environment and modern technology for all of your dental requirements. Our skilled team delivers specific care and efforts to keep you educated and comfortable during your visit.",
+      "2": "When you walk through our doors, you will be fulfilled by our optimistic team who are committed to providing you with great care. Our modern equipment and welcoming waiting area provides comfortable seats and relaxing design to make you feel comfy during waiting for your appointment.",
+      "3": "Our leading-edge clinic is fully equipped with the most recent advances dental technological devices, providing accurate diagnosis and successful treatments. From basic cleanings to complex procedures, our skilled doctor experts are dedicated to offer you personalized care that is suited to your specific requirements.",
+      "4": "DR Cem Dental Clinic prioritizes patient education, allowing you to come to an educated decisions about your dental health. Our trained team will completely explain each treatment and answer any concerns you might have, ensuring that you are confident and informed throughout the process. Whether you need a basic check-up or specialist treatment, DR Cem Dental Clinic will deliver compassionate care and remarkable outcomes."
+    },
+    "cta": "Read more"
+  }
+}

@@ -1,0 +1,175 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+
+    --primary: 190, 70%, 27%;
+    --primary-foreground: 222.2 84% 4.9%;
+
+    --secondary: 243, 21%, 36%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --accent: 226, 100%, 97%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 85.4%;
+    --ring: 222.2 84% 4.9%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 190, 70%, 27%;
+    --primary-foreground: 222.2 84% 4.9%;
+
+    --secondary: 243, 21%, 36%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 226, 100%, 97%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 20.5%;
+    --ring: 212.7 26.8% 83.9%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+
+  .font-aileron {
+    font-family: "Aileron";
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* Define Aileron Regular */
+@font-face {
+  font-family: "Aileron";
+  src: url("/fonts/aileron/Aileron-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Define Aileron SemiBold */
+@font-face {
+  font-family: "Aileron";
+  src: url("/fonts/aileron/Aileron-SemiBold.otf") format("opentype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* Define Aileron Bold */
+@font-face {
+  font-family: "Aileron";
+  src: url("/fonts/aileron/Aileron-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+.header-overlay {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0) 20%,
+    rgba(0, 0, 0, 0.548) 40%
+  );
+}
+
+.swiper-pagination span {
+  background-color: white;
+  padding: 1;
+}
+
+.services-swiper .swiper-backface-hidden .swiper-button-prev {
+  transform: translatex(0px) translatey(-210px);
+  background-color: rgba(0, 0, 0, 0.363);
+  color: white;
+  width: 2.8rem;
+  height: 2.8rem;
+  border-radius: 50%;
+  margin: 0 20px;
+  outline: 10px solid rgba(0, 0, 0, 0.363);
+}
+
+.services-swiper .swiper-backface-hidden .swiper-button-next {
+  transform: translatex(0px) translatey(-210px);
+  background-color: rgba(0, 0, 0, 0.363);
+  color: white;
+  width: 2.8rem;
+  height: 2.8rem;
+  border-radius: 50%;
+  margin: 0 20px;
+  outline: 10px solid rgba(0, 0, 0, 0.363);
+}
+
+@media (max-width: 768px) {
+  .services-swiper .swiper-button-next {
+    scale: 0.8;
+    width: 1.7rem;
+    height: 1.7rem;
+    margin: 0 10px;
+  }
+  .services-swiper .swiper-button-prev {
+    scale: 0.8;
+    width: 1.7rem;
+    height: 1.7rem;
+    margin: 0 10px;
+  }
+}
+
+.hero-first-gredient {
+  background-image: linear-gradient(to top, #a3bded 0%, #6991c7 100%);
+}
+.hero-second-gredient {
+  background-image: linear-gradient(to top, #e6b980 0%, #eacda3 100%);
+}
+.hero-third-gredient {
+  background-image: linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%);
+}
+.hero-forth-gredient {
+  background-image: linear-gradient(-225deg, #e3fdf5 0%, #ffe6fa 100%);
+}
