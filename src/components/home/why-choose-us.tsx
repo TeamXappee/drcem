@@ -25,8 +25,7 @@ export default function WhyChooseUs() {
           At Dr. Cem Baysal&apos;s clinic, we have been providing exceptional dental
           care services as distinguished figure in the field of Oral and
           Maxillofacial Radiology and Oral Implantology, recognized for his
-          innovative approaches and exceptional patient care.
-          <br /> Dr. Cem Baysal&apos;s
+          innovative approaches and exceptional patient care. Dr. Cem Baysal&apos;s
           extensive education and experience underpin our commitment to
           excellence, including his studies at{" "}
           <a className="font-medium text-cyan-800">
@@ -47,8 +46,7 @@ export default function WhyChooseUs() {
           <a className="font-medium text-cyan-800">
             Startest Diagnostic and Imaging
           </a>{" "}
-          Center. 
-          <br />DR Cem Dental Clinic prioritizes patient education, allowing
+          Center. DR Cem Dental Clinic prioritizes patient education, allowing
           you to come to an educated decisions about your dental health. Our
           trained team will completely explain each treatment and answer any
           concerns you might have, ensuring that you are confident and informed
