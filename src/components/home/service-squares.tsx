@@ -19,7 +19,7 @@ export default function ServiceSquares() {
 
           <Button size={"lg"} className="bg-transparent" variant={"outline"}>
             <LocaleLink href="/services/periodontal-plastic-surgery">
-              Know more
+              More
             </LocaleLink>
           </Button>
         </div>
@@ -38,7 +38,7 @@ export default function ServiceSquares() {
             </p>
 
             <Button size={"sm"} className="bg-transparent" variant={"outline"}>
-              <LocaleLink href="/services/dental-veneers">Know more</LocaleLink>
+              <LocaleLink href="/services/dental-veneers">More</LocaleLink>
             </Button>
           </div>
         </div>
@@ -56,7 +56,7 @@ export default function ServiceSquares() {
 
             <Button size={"sm"} className="bg-transparent" variant={"outline"}>
               <LocaleLink href="/services/dental-implants">
-                Know more
+              More
               </LocaleLink>
             </Button>
           </div>
@@ -74,7 +74,7 @@ export default function ServiceSquares() {
             </p>
 
             <Button size={"sm"} className="bg-transparent" variant={"outline"}>
-              <LocaleLink href="/services/masseter-botox">Know more</LocaleLink>
+              <LocaleLink href="/services/masseter-botox">More</LocaleLink>
             </Button>
           </div>
         </div>
@@ -92,7 +92,7 @@ export default function ServiceSquares() {
             </p>
 
             <Button size={"sm"} className="bg-transparent" variant={"outline"}>
-              <LocaleLink href="/services/smile-makeover">Know more</LocaleLink>
+              <LocaleLink href="/services/smile-makeover">More</LocaleLink>
             </Button>
           </div>
         </div>
