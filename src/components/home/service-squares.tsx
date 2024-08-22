@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Button } from "../ui/button";
+import LocaleLink from "../shared/localeLink";
 
 export default function ServiceSquares() {
   return (
@@ -17,7 +18,9 @@ export default function ServiceSquares() {
           </p>
 
           <Button size={"lg"} className="bg-transparent" variant={"outline"}>
-            Know more
+            <LocaleLink href="/services/periodontal-plastic-surgery">
+              Know more
+            </LocaleLink>
           </Button>
         </div>
       </section>
@@ -35,7 +38,7 @@ export default function ServiceSquares() {
             </p>
 
             <Button size={"sm"} className="bg-transparent" variant={"outline"}>
-              Know more
+              <LocaleLink href="/services/dental-veneers">Know more</LocaleLink>
             </Button>
           </div>
         </div>
@@ -52,7 +55,9 @@ export default function ServiceSquares() {
             </p>
 
             <Button size={"sm"} className="bg-transparent" variant={"outline"}>
-              Know more
+              <LocaleLink href="/services/dental-implants">
+                Know more
+              </LocaleLink>
             </Button>
           </div>
         </div>
@@ -69,7 +74,7 @@ export default function ServiceSquares() {
             </p>
 
             <Button size={"sm"} className="bg-transparent" variant={"outline"}>
-              Know more
+              <LocaleLink href="/services/masseter-botox">Know more</LocaleLink>
             </Button>
           </div>
         </div>
@@ -87,7 +92,7 @@ export default function ServiceSquares() {
             </p>
 
             <Button size={"sm"} className="bg-transparent" variant={"outline"}>
-              Know more
+              <LocaleLink href="/services/smile-makeover">Know more</LocaleLink>
             </Button>
           </div>
         </div>

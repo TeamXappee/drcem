@@ -16,7 +16,7 @@ export default async function Blogs() {
           <div key={blog.slug} className="space-y-4 group">
             <LocaleLink href={`/blogs/${blog.slug}`}>
               {blog.cover ? (
-                <Image
+                <img
                   className="object-cover w-full duration-500 ease-in-out aspect-video rounded-2xl brightness-90 "
                   width={600}
                   height={400}

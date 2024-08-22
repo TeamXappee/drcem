@@ -1,5 +1,4 @@
 import ReadonlyEditor from "@/components/blog/_readonly-editor";
-import LocaleLink from "@/components/shared/localeLink";
 import { getBlog } from "@/lib/api/blogs";
 import { notFound } from "next/navigation";
 import React from "react";

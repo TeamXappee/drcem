@@ -1,6 +1,5 @@
 import * as React from "react";
-import { Html } from "@react-email/html";
-import { Tailwind } from "@react-email/components";
+import { Html, Tailwind } from "@react-email/components";
 
 export function AppointmentEmail(props: {
   url: any;

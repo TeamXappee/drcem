@@ -99,10 +99,10 @@ export default function Footer() {
           {`    Dr. Cem Baysal`}
         </p>
         <div className="flex gap-4">
-          <a className="flex items-center justify-between gap-2 cursor-pointer hover:text-cyan-200">
+          <a href="https://www.instagram.com/dr.cembaysal/?hl=en" target="_blank" className="flex items-center justify-between gap-2 cursor-pointer hover:text-cyan-200">
             <Instagram strokeWidth={1.2} size={18} />
           </a>
-          <a className="flex items-center justify-between gap-2 cursor-pointer hover:text-cyan-200">
+          <a href="https://www.facebook.com/drcembaysal/?locale=en_GB" target="_blank" className="flex items-center justify-between gap-2 cursor-pointer hover:text-cyan-200">
             <Facebook strokeWidth={1.2} size={18} />
           </a>
         </div>
