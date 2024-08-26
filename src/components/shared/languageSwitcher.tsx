@@ -12,7 +12,6 @@ export default function LanguageSwitcher({ button }: { button?: boolean }) {
   const active = segments[2];
   const white = active === undefined || active === "about" ;
   let translatedBlogSlug = '';
-  console.log("segments",segments)
 
  if( active == 'blogs' && segments[3] !=undefined){
   if(nextLocale == "tr"){
@@ -24,7 +23,7 @@ export default function LanguageSwitcher({ button }: { button?: boolean }) {
         translatedBlogSlug = "m0apy48s-0ipq4t57g2"; // Adjust index as needed
         break;
         case "m0ansz7z-yfhwa22z6p":
-          translatedBlogSlug = segments[3]; // Adjust index as needed
+          translatedBlogSlug = "m0b0y2l6-p1zy850e28"; // Adjust index as needed
           break;
       default:
         translatedBlogSlug = segments[3]; // Adjust index as needed
@@ -38,8 +37,8 @@ export default function LanguageSwitcher({ button }: { button?: boolean }) {
       case "m0apy48s-0ipq4t57g2":
         translatedBlogSlug = "lzqrpyp4-ze06sxfcoq"; // Adjust index as needed
         break;
-        case "m0ansz7z-yfhwa22z6p":
-          translatedBlogSlug = segments[3]; // Adjust index as needed
+        case "m0b0y2l6-p1zy850e28":
+          translatedBlogSlug = "m0ansz7z-yfhwa22z6p"; // Adjust index as needed
           break;
       default:
         translatedBlogSlug = segments[3]; // Adjust index as needed
