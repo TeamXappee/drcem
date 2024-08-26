@@ -12,7 +12,7 @@ import { Suspense } from "react";
 
 export default async function Home() {
   return (
-    <main className="relative w-full space-y-20 -top-[80px] overflow-hidden">
+    <main className="relative w-full  -top-[80px] overflow-hidden">
       <HeroSectionTwo />
       <div className="relative z-20 pt-10 space-y-20 bg-white sm:space-y-32 rounded-t-2x">
         <PaddingX>

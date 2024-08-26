@@ -1,8 +1,10 @@
 import Image from "next/image";
 import { Button } from "../ui/button";
 import LocaleLink from "../shared/localeLink";
+import { useTranslations } from "next-intl";
 
 export default function ServiceSquares() {
+  const t = useTranslations("Home.allservices");
   return (
     <div className="grid gap-1 space-y-1 text-white lg:grid-cols-2 sm:space-y-0 lg:h-[600px]">
       <section className="relative flex items-start p-10 overflow-hidden bg-black sm:p-20 lg:rounded-l-2xl group ">
@@ -14,12 +16,12 @@ export default function ServiceSquares() {
         />
         <div className="relative z-10 space-y-4">
           <p className="text-4xl font-bold lg:text-5xl ">
-            Periodontal plastic surgery
+          {t("service1")}
           </p>
 
           <Button size={"lg"} className="bg-transparent" variant={"outline"}>
             <LocaleLink href="/services/periodontal-plastic-surgery">
-              More
+                {t("morebtn")}
             </LocaleLink>
           </Button>
         </div>
@@ -34,11 +36,11 @@ export default function ServiceSquares() {
           />
           <div className="relative z-10 space-y-2">
             <p className="text-xl font-medium sm:text-base lg:text-xl">
-              Dental Veneers
+            {t("service2")}
             </p>
 
             <Button size={"sm"} className="bg-transparent" variant={"outline"}>
-              <LocaleLink href="/services/dental-veneers">More</LocaleLink>
+              <LocaleLink href="/services/dental-veneers">  {t("morebtn")}</LocaleLink>
             </Button>
           </div>
         </div>
@@ -51,12 +53,12 @@ export default function ServiceSquares() {
           />
           <div className="relative z-10 space-y-2">
             <p className="text-xl font-medium sm:text-base lg:text-xl">
-              Dental Implant
+            {t("service3")}
             </p>
 
             <Button size={"sm"} className="bg-transparent" variant={"outline"}>
               <LocaleLink href="/services/dental-implants">
-              More
+                {t("morebtn")}
               </LocaleLink>
             </Button>
           </div>
@@ -70,11 +72,11 @@ export default function ServiceSquares() {
           />
           <div className="relative z-10 space-y-2">
             <p className="text-xl font-medium sm:text-base lg:text-xl">
-              Massater Botox
+            {t("service4")}
             </p>
 
             <Button size={"sm"} className="bg-transparent" variant={"outline"}>
-              <LocaleLink href="/services/masseter-botox">More</LocaleLink>
+              <LocaleLink href="/services/masseter-botox">  {t("morebtn")}</LocaleLink>
             </Button>
           </div>
         </div>
@@ -88,11 +90,11 @@ export default function ServiceSquares() {
           />
           <div className="relative z-10 space-y-2">
             <p className="text-xl font-medium sm:text-base lg:text-xl">
-              Smile Makeover
+            {t("service5")}
             </p>
 
             <Button size={"sm"} className="bg-transparent" variant={"outline"}>
-              <LocaleLink href="/services/smile-makeover">More</LocaleLink>
+              <LocaleLink href="/services/smile-makeover">  {t("morebtn")}</LocaleLink>
             </Button>
           </div>
         </div>

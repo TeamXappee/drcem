@@ -9,7 +9,7 @@ export default async function Philosophy() {
         <div className="absolute top-0 left-0 flex items-center justify-center w-full h-[30vh] sm:h-[45vh] bg-black">
           <Image
             style={{ objectPosition: "50% 35%" }}
-            alt="Doctor cem baysal in action."
+            alt={t("img_alt")}
             src="/doctor-cem.jpg"
             width={1400}
             height={800}

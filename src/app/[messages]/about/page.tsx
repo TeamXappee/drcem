@@ -8,7 +8,7 @@ export default async function About() {
       <div className="h-[30vh] sm:h-[45vh]">
         <div className="absolute top-0 left-0 flex items-center justify-center w-full h-[30vh] sm:h-[45vh] bg-black">
           <Image
-            alt="Doctor cem baysal in action."
+            alt={t("img1-alt")}
             src="/about.png"
             width={1400}
             height={800}
@@ -38,33 +38,21 @@ export default async function About() {
       <section className="flex flex-row gap-10">
         <div>
           <p className="text-[3rem] lg:text-[4rem] 2xl:text-[6rem]  mx-auto tracking-tighter leading-none font-aileron  text-cyan-950">
-            An Adventure of ongoing Learning{" "}
+          {t("adventure-title")}{" "}
           </p>
 
           <article className="grid gap-4 mx-auto text-lg my-7 ">
             <p>
-              Dr. Cem&apos;s adventure towards becoming an influential figure in
-              dentistry started in the classrooms of Ankara, Turkey, and
-              expanded internationally during his middle school years in
-              Schwabmunchen, Germany. This initial exposure to other cultures
-              shaped his global outlook on dentistry practices.{" "}
+            {t("adventure-para1")}{" "}
             </p>
             <p>
-              In 1987, he began his official dentistry studies at the esteemed
-              Istanbul University Faculty of Dentistry. However, for Dr. Cem,
-              receiving his degree in 1991 was only the beginning. With an
-              unstoppable hunger for information, he earned a doctorate in Oral
-              and Maxillofacial Radiology, which he completed in 1998. During
-              this period, he also studied microbiology and virology at Istanbul
-              University&apos;s School of Medicine, demonstrating his
-              interdisciplinary approach to dental research.
+            {t("adventure-para2")}
             </p>
           </article>
         </div>
         <Image
           style={{ objectPosition: "50% 25%" }}
-          alt="Dr. Cem's adventure towards becoming an influential figure in
-            dentistry started in the classrooms."
+          alt={t("img2-alt")}
           src="/learner.png"
           width={1000}
           height={800}
@@ -76,28 +64,17 @@ export default async function About() {
       <section className="flex flex-row-reverse gap-10">
         <div >
           <p className="text-[3rem] lg:text-[4rem] 2xl:text-[6rem]  mx-auto tracking-tighter leading-none font-aileron  text-cyan-950">
-            Managing Academics and Clinical Practice.
+            {t("managing-title")}
           </p>
 
           <article className="grid gap-4 mx-auto text-lg my-7 ">
             <p>
-              Dr. Baysal&apos;s professional career began in 1991, when he
-              started his own oral surgery practice. He has always believed in
-              the importance of merging practical experience with academic
-              perception. In addition to his academic duties, he worked as a
-              lecturer and visiting professor at G. Marconi University from 2016
-              to 2019. He currently works as an Associate Professor and Head of
-              the Radiology Department at Istanbul. Kent University has been
-              ongoing since 2018, and he continues. &quot;To manage my time, I
-              had to separate the day as mornings in university and afternoons
-              in the clinic.&quot; to help influence the next generation of
-              dental professionals. This sense of balance has been the backbone
-              of his success.
+            {t("managing-para")}
             </p>
           </article>
         </div>
         <Image
-          alt="Doctor cem giving a lecture."
+          alt={t("img3-alt")}
           src="/lecturing.png"
           width={1000}
           height={800}
@@ -108,11 +85,10 @@ export default async function About() {
       </section>
       <section>
         <p className="text-[3rem] lg:text-[4rem] 2xl:text-[6rem]  mx-auto tracking-tighter leading-none font-aileron text-center text-cyan-950">
-          The Baysal Technique: A Game-Changer in Sinus Lifting techniques{" "}
+          {t("technique-title")}{" "}
         </p>
         <Image
-          alt="Dr. Cem's adventure towards becoming an influential figure in
-            dentistry started in the classrooms."
+          alt={t("img2-alt")}
           src="/technique.png"
           width={1000}
           height={800}
@@ -122,62 +98,43 @@ export default async function About() {
         />
         <article className="grid gap-4 text-lg my-14 -">
           <p>
-            Dr. Cem made his most major breakthrough in dentistry in 2022, when
-            he developed the &quot;Baysal technique&quot; for large-area sinus
-            lifts. This innovative technique tackles a prevalent issue in dental
-            implantology: not sufficient bone in the upper molars areas. The
-            Baysal approach enables simultaneously implant placement and sinus
-            lifting.{" "}
+          {t("technique-para")}{" "}
           </p>
           <ul className="flex flex-wrap ml-4 -my-2 list-disc gap-x-10">
             <li className="font-medium capitalize">
-              reducing the requirement for bone grafts.
+            {t("technique-li1")}
             </li>
             <li className="font-medium capitalize">
-              lowering the danger of sinus perforation.
+            {t("technique-li2")}
             </li>
             <li className="font-medium capitalize">
               {" "}
-              improving bone integration with implants.
+              {t("technique-li3")}
             </li>
           </ul>
           <p>
             {" "}
-            In 2024, Dr. Cem expanded on his idea by patenting the &quot;Baysal
-            osteotome,&quot; a device that makes it easier to use his procedure.
-            &quot;With this technique,&quot; Dr. Cem states, &quot;patients with
-            lost bone on upper molar areas can have implants simultaneously with
-            lifting, especially without any grafts, with very less sinus
-            perforation risk.&quot;
+            {t("technique-para2")}
           </p>
         </article>
       </section>
       <section>
         <p className="text-[3rem] lg:text-[4rem] 2xl:text-[6rem]  mx-auto tracking-tighter leading-none font-aileron text-center text-cyan-950">
-          Besides The Dental Chair
+          {t("Besides-title")}
         </p>
         <article className="grid gap-4 mx-auto text-lg my-14 -">
           <p>
-            What defines Dr. Cem is not just his professional accomplishments,
-            but also his wide variety of interests and skills. When he&apos;s
-            not in the clinic or teaching, he&apos;s generally off enjoying his
-            hobbies. He is a private pilot and sea captain, allowing him to
-            travel and embark on new adventures. He also enjoys riding horses,
-            search-and-rescue diving, and motorbike riding. These hobbies
-            represent Dr. Cem&apos;s adventurous nature and belief in lifelong
-            learning, both of which have definitely influenced his unique
-            approach to dentistry. These activities not only bring him delight,
-            but also keep him refreshed and inspired.
+          {t("Besides-para")}
           </p>
         </article>
       </section>
       <section>
         <p className="text-[3rem] lg:text-[4rem] 2xl:text-[6rem]  mx-auto tracking-tighter leading-none font-aileron text-center text-cyan-950">
-          Award & Recognition
+        {t("Award-title")}
         </p>
 
         <Image
-          alt="Doctor cem giving a lecture."
+          alt={t("Award-img-alt")}
           src="/award.png"
           width={1000}
           height={800}
@@ -187,35 +144,22 @@ export default async function About() {
         />
         <article className="grid gap-4 mx-auto text-lg my-14">
           <p>
-            Dr. Baysal&apos;achievements to dentistry have received widespread
-            recognition. On December 10, 2023, he was mentioned in
-            Outlook&apos;s article &quot;Top Best 15 Dentists And Dental Clinics
-            In Turkey&quot;. In 2024, he was ranked among the top 10 dentists in
-            the world by the Global Clinic Rating List. His achievements
-            demonstrate his passion and ability in the field.
+           {t("Award-para")}
           </p>
           <p>
-            <span className="font-semibold">Professional associations:</span>{" "}
-            Dr. Baysal is an outstanding member of the Turkish Dental
-            Association and has remained an active participant in numerous
-            professional organisations throughout his career.
+            <span className="font-semibold">{t("prof-assc")}</span>{" "}
+            {t("Award-para2")}
           </p>
         </article>
       </section>
       <section>
         <article className="grid gap-4 mx-auto text-lg my-14">
-          <p className="font-bold">Let&apos;  s Connect</p>
+          <p className="font-bold">{t("connect")}</p>
           <p>
-            “I would love to hear from you. Please contact me if you have any
-            questions about my work, would like to explore revolutionary
-            dentistry treatments, or simply want to connect. You can contact me
-            using the information on this website, and I will be pleased to
-            help. Thank you for stopping by, and I hope to connect with you
-            soon”
+          {t("connect-para")}
           </p>
           <p className="font-medium">
-            For appointments, inquiries, or more information, please reach out
-            here.{" "}
+          {t("connect-para2")}{" "}
           </p>
         </article>
       </section>

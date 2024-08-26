@@ -1,16 +1,19 @@
+
 import React from "react";
 import SectionTitle from "../shared/section-title";
-import Image from "next/image";
 import { getBlogs } from "@/lib/api/blogs";
 import LocaleLink from "../shared/localeLink";
 import { NotebookText } from "lucide-react";
+import { useParams } from "next/navigation";
+import { getLocale, getTranslations } from "next-intl/server";
 
 export default async function Blogs() {
-  const blogs = await getBlogs(0, 3);
-  console.log(blogs);
+  const t = await getTranslations("blogs")
+  const locale = await getLocale()
+  const blogs = await getBlogs(0, 3,locale);
   return (
     <div className="space-y-10 ">
-      <SectionTitle>Our featured blogs</SectionTitle>
+      <SectionTitle>{t("title")} </SectionTitle>
       <div className="grid gap-4 sm:grid-cols-3">
         {blogs?.map((blog: any) => (
           <div key={blog.slug} className="space-y-4 group">

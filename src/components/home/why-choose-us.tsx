@@ -1,7 +1,9 @@
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 import React from "react";
 
 export default function WhyChooseUs() {
+  const t = useTranslations("Home.whychooseus");
   return (
     <div className="flex flex-col-reverse items-start gap-10 pt-12 sm:grid sm:grid-cols-5">
       <Image
@@ -14,47 +16,34 @@ export default function WhyChooseUs() {
       <article className="col-span-3 space-y-6">
         <div className="space-y-4">
           <h1 className="text-4xl font-bold">
-            Leading Dentistry via Innovation and Passion - The Best dental
-            clinic in Turkey
+          {t("h1")}
           </h1>
           <h2 className="text-4xl opacity-80 ">
-            Accredited and Trusted Dental Care in Turkey.
+          {t("h2")}
           </h2>
         </div>
         <p className="p-1 text-lg leading">
-          At Dr. Cem Baysal&apos;s clinic, we have been providing exceptional dental
-          care services as distinguished figure in the field of Oral and
-          Maxillofacial Radiology and Oral Implantology, recognized for his
-          innovative approaches and exceptional patient care.
-          <br /> Dr. Cem Baysal&apos;s
-          extensive education and experience underpin our commitment to
-          excellence, including his studies at{" "}
+        {t("p1")}
+          <br />  {t("p2")}
           <a className="font-medium text-cyan-800">
-            Guglielmo Marconi University
+          {t("p1a1")}
           </a>
           ,{" "}
           <a className="font-medium text-cyan-800">
-            Istanbul University Faculty of Dentistry
+          {t("p1a2")}
           </a>
-          , and his roles as Head of the Department of Oral Diagnosis and
-          Radiology at{" "}
-          <a className="font-medium text-cyan-800">Istanbul Kent University</a>,
-          Lecturer at{" "}
+          {t("p3")}
+          <a className="font-medium text-cyan-800">{t("p3a1")}</a>,
+          {t("p3a11")}
           <a className="font-medium text-cyan-800">
-            Guglielmo Marconi University
+          {t("p3a2")}
           </a>
-          , and Oral Maxillofacial Radiology Specialist at{" "}
+          {t("p3a3")}
           <a className="font-medium text-cyan-800">
-            Startest Diagnostic and Imaging
+          {t("p3a4")}
           </a>{" "}
-          Center. 
-          <br />DR Cem Dental Clinic prioritizes patient education, allowing
-          you to come to an educated decisions about your dental health. Our
-          trained team will completely explain each treatment and answer any
-          concerns you might have, ensuring that you are confident and informed
-          throughout the process. we adhere to international standards of
-          professionalism and quality, ensuring our patients receive the highest
-          level of care.
+          {t("p4")}
+          <br /> {t("p5")}
         </p>
         {/* <p className="p-1 text-lg leading">
           At Dr. Cem Baysal&apos;s clinic, we have been providing exceptional

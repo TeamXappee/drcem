@@ -13,13 +13,13 @@ import LocaleLink from "../shared/localeLink";
 
 export default function Footer() {
   const tNav = useTranslations("Nav");
+  const tFooter = useTranslations("Home.footer");
   const tServices = useTranslations("Services");
   const keys = [
     "dental-implants",
     "dental-veneers",
-    "dental-crowns",
+    "crowns-bridges",
     "periodontal-plastic-surgery",
-    "dental-bridges",
     "smile-makeover",
     "immediate-dental-implant-placement",
     "masseter-botox",
@@ -95,7 +95,7 @@ export default function Footer() {
       </div>
       <section className="flex items-center justify-between pb-4 pt-14">
         <p className="text-left text-white/80">
-          All Rights Reserved <a href="https://xappee.com">Xappee</a> © 2024 -
+          {tFooter("copyright")} <a href="https://xappee.com">Xappee</a> © 2024 -
           {`    Dr. Cem Baysal`}
         </p>
         <div className="flex gap-4">

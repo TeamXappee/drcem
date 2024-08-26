@@ -18,7 +18,7 @@ const Faqs = () => {
               <h2 className="text-xl font-medium">{t(`${i}.q`)}</h2>
               <p className="text-lg">{t(`${i}.a`)}</p>
             </div>
-            <hr className={`my-8 ${i === 4 && "hidden"}`} />
+            <hr className={`my-8 ${i === 6 && "hidden"}`} />
           </div>
         ))}
       </div>

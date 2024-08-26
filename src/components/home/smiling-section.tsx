@@ -1,43 +1,34 @@
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 import React from "react";
 
 export default function SmilingSection() {
+  const t = useTranslations("Home.whychoosedrcem");
   return (
     <div className="w-full">
       <div className="flex flex-col items-stretch justify-between text-cyan-50 sm:flex-row">
         <div className="w-full p-10 py-12 space-y-6 sm:w-1/2 sm:py-16 bg-cyan-800 sm:rounded-l-2xl rounded-t-2xl sm:rounded-r-none">
           <h3 className="text-2xl font-medium sm:text-3xl">
-            Why Choose Dr Cem Baysal?
+          {t("h3")}
           </h3>
           <ul className="space-y-4 sm:pl-5 sm:list-disc">
             <li>
-              Dr. Cem Baysal is recognised as the best dentist in Istanbul,
-              Turkey.
+            {t("li1")}
             </li>
             <li>
-              Our clinic utilises cutting-edge dental technology for precise and
-              efficient treatments.
+            {t("li2")}
             </li>
             <li>
-              Dr. Cem&apos;s clinic has been honored as the 2023 clinic award
-              winners.
+            {t("li3")}
             </li>
             <li>
-              Dr. Cem Baysal&apos;s 33 years of experience offer unparalleled
-              care and outstanding results.
+            {t("li4")}
             </li>
             <li>
-              In 2024, he was ranked among the top 10 dentists in the world by
-              the Global Clinic Rating List. His achievements demonstrate his
-              passion and ability in the field.
+            {t("li5")}
             </li>
             <li>
-              In 2024, he was ranked among the top 10 dentists in the world by
-              the Global Clinic Rating List. His achievements demonstrate his
-              passion and ability in the field.Dr. Baysal is an outstanding
-              member of the Turkish Dental Association and has remained an
-              active participant in numerous professional organisations
-              throughout his career.
+            {t("li6")}
             </li>
           </ul>
         </div>

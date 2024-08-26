@@ -6,6 +6,7 @@ import Image from "next/image";
 
 export default async function ServiceCard({ item }: { item: any }) {
   const t = await getTranslations("Services");
+  const t2 = await getTranslations("Home.services");
   return (
     <div className="bg-muted h-[550px] relative -mx-[.8rem] shadow-md shadow-gray-200/20 text-cyan-950 rounded-3xl ease-in-out  duration-500 group-hover:-translate-y-[4px] group-hover:translate-x-[4px]">
       {t(`${item}.image`).startsWith("/") ? (
@@ -29,7 +30,7 @@ export default async function ServiceCard({ item }: { item: any }) {
           href={`/services/${t(`${item}.href`)}`}
           className="flex items-center gap-2 tracking-wider text-right w-fit hover:opacity-70"
         >
-          Read more <ArrowRight size={15} />
+          {t2("cta")} <ArrowRight size={15} />
         </LocaleLink>
         </div>
   

@@ -37,7 +37,6 @@
     "lang": {
       "name": "Language"
     },
-
     "contact": {
       "name": "Contact",
       "reachUs": "Reach us",
@@ -60,7 +59,7 @@
       "name": "Masseter Botox",
       "href": "/masseter-botox",
       "image": "/services/colored-teeth.jpg",
-      "content": "situation for a dentist concerns people who have teeth that demonstrate unusual yellowing or oxidation. External factors include smoking, food and beverage stains and fundamental causes such as as medication or trauma, decaying teeth, over repairs, and illnesses. Professional cleanings, whitening processes, restorations for the teeth such as crowns or veneers, and other treatments relevant to the cause may all be used in treatment. Diagnosis is critical to effective medical treatment.",
+      "content": "Situation for a dentist concerns people who have teeth that demonstrate unusual yellowing or oxidation. External factors include smoking, food and beverage stains and fundamental causes such as as medication or trauma, decaying teeth, over repairs, and illnesses. Professional cleanings, whitening processes, restorations for the teeth such as crowns or veneers, and other treatments relevant to the cause may all be used in treatment. Diagnosis is critical to effective medical treatment.",
       "related": {
         "1": "/bleaching",
         "2": "/porcelain-laminate-veneers"
@@ -150,20 +149,59 @@
     "hero": {
       "h1": "BE. CONFIDENT.",
       "h2": "Experience World-Class Dental Care with Dr. Cem Baysal.",
-      "cta1": "whatclinic.com",
+      "h3": "University Professor, Oral Diagnosis, Radiology, advanced surgery, cosmetic treatments, treatment planning, and Implantology.",
+      "cta1": "About Dr. Baysal's Expertise",
       "cta2": "Book an appointment"
+    },
+    "whychooseus": {
+      "h1": "Leading Dentistry via Innovation and Passion - The Best dental clinic in Turkey",
+      "h2": "Accredited and Trusted Dental Care in Turkey.",
+      "p1": "At Dr. Cem Baysal's clinic, we have been providing exceptional dental care services as distinguished figure in the field of Oral and Maxillofacial Radiology and Oral Implantology, recognized for his innovative approaches and exceptional patient care.",
+      "p2": "Dr. Cem Baysal's extensive education and experience underpin our commitment to excellence, including his studies at ,",
+      "p1a1": "Guglielmo Marconi University",
+      "p1a2": "Istanbul University Faculty of Dentistry",
+      "p3": " , and his roles as Head of the Department of Oral Diagnosis and Radiology at ",
+      "p3a1": "Istanbul Kent University",
+      "p3a11": " Lecturer at ",
+      "p3a2": "Guglielmo Marconi University",
+      "p3a3": ", and Oral Maxillofacial Radiology Specialist at ",
+      "p3a4": "Startest Diagnostic and Imaging",
+      "p4": "Center. ",
+      "p5": "DR Cem Dental Clinic prioritizes patient education, allowing you to come to an educated decisions about your dental health. Our trained team will completely explain each treatment and answer any concerns you might have, ensuring that you are confident and informed throughout the process. we adhere to international standards of professionalism and quality, ensuring our patients receive the highest level of care."
+    },
+    "whychoosedrcem": {
+      "h3": "Why Choose Dr Cem Baysal?",
+      "li1": "Dr. Cem Baysal is recognised as the best dentist in Istanbul, Turkey.",
+      "li2": "Our clinic utilises cutting-edge dental technology for precise and efficient treatments.",
+      "li3": "Dr. Cem's clinic has been honored as the 2023 clinic award winners.",
+      "li4": "Dr. Cem Baysal&apos;s 33 years of experience offer unparalleled care and outstanding results.",
+      "li5": "In 2024, he was ranked among the top 10 dentists in the world by the Global Clinic Rating List. His achievements demonstrate his passion and ability in the field.",
+      "li6": "Dr. Baysal is an outstanding member of the Turkish Dental Association and has remained an active participant in numerous professional organisations throughout his career."
+    },
+    "allservices": {
+      "service1": "Periodontal plastic surgery",
+      "service2": "Dental Veneers",
+      "service3": "Dental Implant",
+      "service4": "Massater Botox",
+      "service5": "Smile Makeover",
+      "morebtn": "More"
     },
     "services": {
       "h1": "Discover our services",
-      "h2": "We offer a wide range of dental services to meet your needs."
+      "h2": "We offer a wide range of dental services to meet your needs.",
+      "cta": "Read more"
     },
     "map": {
       "h1": "Find us on the map",
       "address": "Hacı Emin Efendi Street Eserim Apt. No 64 Kat: 2 Daire: 8-34365 - Teşvikiye, Nişantaşı, Istanbul, 34365 | Apt. No 64 Floor 2 Flat: 8-34365 - Teşvikiye, Nişantaşı, Istanbul,34365"
+    },
+    "footer": {
+      "title": "Book your appointment now",
+      "copyright": "All Rights Reserved"
     }
   },
   "Reviews": {
-    "title": "What our patients say",
+    "title": "What our patients say about us",
     "data": {
       "5": {
         "name": "Alan DaCosta",
@@ -196,13 +234,18 @@
       "1": {
         "name": "Lily Olaru",
         "picture": "https://lh3.googleusercontent.com/a-/ALV-UjUBhpbNohi53WITg2E8CU5N1DgwAiB_hKLs-_9XMD8b3eA=w48-h48-p-rp-mo-br100",
-        "content": "Dr. Cem Baysal and his exceptional team provided an outstanding dental experience which included dental implants and crowns. The warm and friendly atmosphere of the clinic, coupled with Dr. Baysal's professional expertise, made me feel at ease throughout the process. The dental implant surgery was painless and efficient, thanks to Dr. Baysal's precision and the amazing assistants' support. The fitting of the crowns was equally seamless, with great attention to detail, resulting in a beautiful and natural-looking smile. Dr. Baysal's dedication to personalized care and passion for his craft made the entire experience truly exceptional. I highly recommend Dr. Baysal and his team for top-tier dental implant and crown procedures, I love this place, their office was very clean, the staff is super friendly and they are very accommodating, doing whatever it took to make me feel comfortable and at ease during my visit.  Dr. Cem Baysal is a very empathetic dentist and got a genuine plan to treat my issues.  It was the best experience I've had at a medical office and I'm actually looking forward to my next visit. Thank you for helping me."
-      },
-      "month": "4",
-      "year": "2023"
-    }
+        "content": "Dr. Cem Baysal and his exceptional team provided an outstanding dental experience which included dental implants and crowns. The warm and friendly atmosphere of the clinic, coupled with Dr. Baysal's professional expertise, made me feel at ease throughout the process. The dental implant surgery was painless and efficient, thanks to Dr. Baysal's precision and the amazing assistants' support. The fitting of the crowns was equally seamless, with great attention to detail, resulting in a beautiful and natural-looking smile. Dr. Baysal's dedication to personalized care and passion for his craft made the entire experience truly exceptional. I highly recommend Dr. Baysal and his team for top-tier dental implant and crown procedures, I love this place, their office was very clean, the staff is super friendly and they are very accommodating, doing whatever it took to make me feel comfortable and at ease during my visit.  Dr. Cem Baysal is a very empathetic dentist and got a genuine plan to treat my issues.  It was the best experience I've had at a medical office and I'm actually looking forward to my next visit. Thank you for helping me.",
+        "month": "4",
+        "year": "2023"
+      }
+    },
+    "months": "months ago",
+    "readmore": "Read More",
+    "showless": "Show Less"
   },
   "About": {
+    "img1-alt": "Doctor cem baysal in action.",
+    "img2-alt": "Dr. Cem's adventure towards becoming an influential figure in dentistry started in the classrooms.",
     "title": "A Journey of Continuous Innovation",
     "content": {
       "1": {
@@ -213,7 +256,29 @@
         "bold": "Dr. Cem Leading Dentistry via Innovation and Passion",
         "text": "In the world of dentistry, Dr. Cem is one of only a few double branch specialists, especially one of the very rare, combining of academic proficiency, clinical experience, and inventive attitude. With a career extending three decades, Dr. Cem has not only watched the growth of dental practices, but has actively influenced their future through innovative procedures and unrelenting dedication, by combining radiology and Implantology, resulting very high success in implantology and surgery."
       }
-    }
+    },
+    "adventure-title": "An Adventure of ongoing Learning",
+    "adventure-para1": " Dr. Cem's adventure towards becoming an influential figure in dentistry started in the classrooms of Ankara, Turkey, and expanded internationally during his middle school years in Schwabmunchen, Germany. This initial exposure to other cultures shaped his global outlook on dentistry practices.",
+    "adventure-para2": " In 1987, he began his official dentistry studies at the esteemed Istanbul University Faculty of Dentistry. However, for Dr. Cem, receiving his degree in 1991 was only the beginning. With an unstoppable hunger for information, he earned a doctorate in Oral and Maxillofacial Radiology, which he completed in 1998. During this period, he also studied microbiology and virology at Istanbul University&apos;s School of Medicine, demonstrating his interdisciplinary approach to dental research.",
+    "managing-title": "Managing Academics and Clinical Practice.",
+    "managing-para": " Dr. Baysal's professional career began in 1991, when he started his own oral surgery practice. He has always believed in the importance of merging practical experience with academic perception. In addition to his academic duties, he worked as a lecturer and visiting professor at G. Marconi University from 2016 to 2019. He currently works as an Associate Professor and Head of the Radiology Department at Istanbul. Kent University has been ongoing since 2018, and he continues. \"To manage my time, I had to separate the day as mornings in university and afternoons in the clinic.\" to help influence the next generation of dental professionals. This sense of balance has been the backbone of his success.",
+    "img3-alt": "Doktor Cem bir ders veriyor.",
+    "technique-title": "The Baysal Technique: A Game-Changer in Sinus Lifting techniques",
+    "technique-para": "Dr. Cem made his most major breakthrough in dentistry in 2022, when he developed the \"Baysal technique\" for large-area sinus lifts. This innovative technique tackles a prevalent issue in dental implantology: not sufficient bone in the upper molars areas. The Baysal approach enables simultaneously implant placement and sinus lifting.",
+    "technique-li1": "reducing the requirement for bone grafts.",
+    "technique-li2": "lowering the danger of sinus perforation.",
+    "technique-li3": "improving bone integration with implants.",
+    "technique-para2": "In 2024, Dr. Cem expanded on his idea by patenting the \"Baysal osteotome\" a device that makes it easier to use his procedure. \"With this technique\" Dr. Cem states, \"patients with lost bone on upper molar areas can have implants simultaneously with lifting, especially without any grafts, with very less sinus perforation risk.\"",
+    "Besides-title": "Besides The Dental Chair",
+    "Besides-para": "What defines Dr. Cem is not just his professional accomplishments, but also his wide variety of interests and skills. When he's not in the clinic or teaching, he's generally off enjoying his hobbies. He is a private pilot and sea captain, allowing him to travel and embark on new adventures. He also enjoys riding horses, search-and-rescue diving, and motorbike riding. These hobbies represent Dr. Cem's adventurous nature and belief in lifelong learning, both of which have definitely influenced his unique approach to dentistry. These activities not only bring him delight, but also keep him refreshed and inspired.",
+    "Award-title": "Award & Recognition",
+    "Award-img-alt": "Doctor cem giving a lecture.",
+    "Award-para": "Dr. Baysal'achievements to dentistry have received widespread recognition. On December 10, 2023, he was mentioned in Outlook&apos;s article \"Top Best 15 Dentists And Dental Clinics In Turkey\". In 2024, he was ranked among the top 10 dentists in the world by the Global Clinic Rating List. His achievements demonstrate his passion and ability in the field.",
+    "prof-assc": "Professional associations:",
+    "Award-para2": "Dr. Baysal is an outstanding member of the Turkish Dental Association and has remained an active participant in numerous professional organisations throughout his career.",
+    "connect": "Let's Connect",
+    "connect-para": "“I would love to hear from you. Please contact me if you have any questions about my work, would like to explore revolutionary dentistry treatments, or simply want to connect. You can contact me using the information on this website, and I will be pleased to help. Thank you for stopping by, and I hope to connect with you soon”",
+    "connect-para2": "For appointments, inquiries, or more information, please reach out here."
   },
   "Philosophy": {
     "title": "Our Philosophy",
@@ -238,7 +303,8 @@
         "contnet": " We are committed to constant enhancement and frequently examine our processes, generate patient feedback, and adapt to changing requirements and expectations. By creating a culture of education and creativity, we aim to exceed every expectation of quality and remain at the top of dental treatment."
       }
     },
-    "footer": "At Dr. Cem Dental Clinic, we are committed for improving smiles and promoting the wellbeing of one patient at a time. With a consistent dedication to care, accuracy, and innovation, we motivate you to discover the difference in dental perfection that explains our philosophy in dental treatment."
+    "footer": "At Dr. Cem Dental Clinic, we are committed for improving smiles and promoting the wellbeing of one patient at a time. With a consistent dedication to care, accuracy, and innovation, we motivate you to discover the difference in dental perfection that explains our philosophy in dental treatment.",
+    "img_alt": "Doctor cem baysal in action."
   },
   "Clinic": {
     "title": "Welcome to Dr Cem Baysal Dental Clinic",
@@ -249,6 +315,10 @@
       "3": "Our leading-edge clinic is fully equipped with the most recent advances dental technological devices, providing accurate diagnosis and successful treatments. From basic cleanings to complex procedures, our skilled doctor experts are dedicated to offer you personalized care that is suited to your specific requirements.",
       "4": "DR Cem Dental Clinic prioritizes patient education, allowing you to come to an educated decisions about your dental health. Our trained team will completely explain each treatment and answer any concerns you might have, ensuring that you are confident and informed throughout the process. Whether you need a basic check-up or specialist treatment, DR Cem Dental Clinic will deliver compassionate care and remarkable outcomes."
     },
-    "cta": "Read more"
+    "cta": "Read more",
+    "img_alt": "Doctor cem baysal in action."
+  },
+  "blogs": {
+    "title": "Our featured blogs"
   }
 }

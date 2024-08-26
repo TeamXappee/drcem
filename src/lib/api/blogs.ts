@@ -1,6 +1,8 @@
-export const getBlogs = async (page: number, pageSize: number) => {
+export const getBlogs = async (page: number, pageSize: number, locale: string) => {
+  // console.log("ssssssssss",lang)
   const res = await fetch(
-    `${process.env.NEXT_PUBLIC_API}/blogs/published?page=${page}&pageSize=${pageSize}`,
+    `${process.env.NEXT_PUBLIC_API}/blogs/published?page=${page}&pageSize=${pageSize}&lang=${locale}`,
+    // `${process.env.NEXT_PUBLIC_API}/blogs/published?page=${page}&pageSize=${pageSize}`,
     {
       method: "GET",
       headers: {
@@ -10,7 +12,7 @@ export const getBlogs = async (page: number, pageSize: number) => {
     }
   );
   const data = await res.json();
-  console.log(res)
+  // console.log(res)
   return data.blogs;
 };
 

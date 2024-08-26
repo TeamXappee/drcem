@@ -108,18 +108,6 @@
       },
       "alt": "Renkli dişler"
     },
-    "crowns-bridges": {
-      "name": "Kron ve Köprüler",
-      "href": "/crowns-bridges",
-      "image": "/services/crowns-bridges.webp",
-      "content": "Kron ve Köprüler, hem kozmetik hem de fonksiyonel diş sorunları için çözümler sunmaları nedeniyle diş restorasyonunda önemlidir. Kırık dişleri porselen veya metal alaşımları gibi malzemeler kullanarak koruyucu kapsüller gibi değiştiren kronlar, dayanıklılığı ve organik bir görünümü garanti eder. Köprüler, eksik parçalar için diş yerlerini dolduran yapay dişlerden oluşur ve bunlar da kronlar veya implantlar tarafından bir arada tutulur. Çiğneme yeteneğini iyileştirirken yakındaki dişlerin hareket etmesini önler. Dolgulanamayacak kadar büyük olan diş hasarlarını onarabilirler. Bir diş kaybedildiğinde, hasar görmüş dişi porselenle onarabiliriz. Bu tür bir restorasyona köprü denir. Diş hazırlığı yapılan bir diş sırasında kullanılan iki ana diş azaltma türü vardır. Bunlar: Adım Adım (Step-by-Step) Diş Azaltma ve Adım Adım Olmayan (Step-by-Step) Diş Hekimliği. Adım Adım Diş Hekimliği, daha ekonomik metal destekli Kronlar ve Köprüler hazırlayabilir. Çinko ve Alüminyum Oksit gibi estetik bir altyapı kullanılıyorsa, Adım Adım Diş Hekimliği yöntemi tercih edilmelidir. Adım-Adım Diş Hekimliği sürecinde yapılan restorasyonlar diş etlerine baskı yapmaz ve bu nedenle dişin doğasına uygun daha uygun, sağlıklı sonuçlar sunar. Bugün, metal destekli Kornea Kronlar yerine Çinko/Alüminyum Oksit Altyapılı Kornea Kronları ve Pelüsid Kornea Kronları tercih edilmektedir.",
-      "related": {
-        "1": "/porcelain-crowns",
-        "2": "/broken-teeth",
-        "3": "/smile-design"
-      },
-      "alt": ""
-    },
     "bleaching": {
       "name": "Beyazlatma",
       "href": "/bleaching",
@@ -129,132 +117,281 @@
         "1": "/bleeching"
       },
       "alt": ""
+    },
+    "dental-veneers": {
+      "name": "Diş Fenerleri",
+      "href": "/dental-veneers",
+      "image": "/services/porcelain-laminate-veneers.jpg",
+      "content": "Porselen, dişlerin görünümünü geliştirmek için kullanılan, dişlere benzer renkte ince laminat kabuklardan yapılmış kaplamalardır. Dişlerin ön kısmını kaplayarak renk değişikliği, çatlama, kırılma veya boşluk gibi görsel kusurları düzeltirler. Bu prosedür diş planlaması, algılar, yapay veneerler, bağlantı ve son modifikasyonları içermektedir. Veneerler uzun ömürlüdür, lekelere karşı dayanıklıdır ve tam olarak gerçek dişler gibi görünür. İyi diş hijyeni ve sık sık muayeneler, onların yönetimi için gereklidir. Gülümserken görünen dişlerinizin renk değişikliği ve şekil bozukluğu nedeniyle size acı veriyorsa, doğal dişlerinize dokunmadan dişlerinizi yeniden şekillendirebilirsiniz. Dişlerinizin çok ince bir tabakasının aşındıktan sonra dişlerinizi de yeniden onarabilirsiniz. Uzun yıllardır, bu yöntem düzensiz, küçük, kırık veya eşitsiz dişleri onarmak için kullanılmaktadır. Son yıllarda, porselendeki gelişmeler dişleri daha sağlam ama zarif bir şekilde restore etme imkanı sağlamıştır.",
+      "related": {
+        "1": "/colored-teeth"
+      },
+      "alt": ""
+    },
+    "masseter-botox": {
+      "name": "Masseter Botox",
+      "href": "/masseter-botox",
+      "image": "/services/colored-teeth.jpg",
+      "content": "Bir diş hekimi için durum, dişlerinde alışılmadık sararma veya oksidasyon gösteren insanları ilgilendirir. Dış faktörler arasında sigara içmek, yiyecek ve içecek lekeleri ve ilaç kullanımı veya travma, çürüyen dişler, aşırı onarımlar ve hastalıklar gibi temel nedenler bulunmaktadır. Tedavi sürecinde profesyonel temizlikler, dişlerin beyazlatma işlemleri, kuronlar veya veneerler gibi restorasyonlar ve konu ile ilgili diğer tedavi yöntemleri kullanılabilir. Tanı, etkili tıbbi tedavi için kritik öneme sahiptir.",
+      "related": {
+        "1": "/bleaching",
+        "2": "/porcelain-laminate-veneers"
+      },
+      "alt": "Colored teeth"
+    },
+    "periodontal-plastic-surgery": {
+      "name": "Periodontal plastik cerrahi",
+      "href": "/periodontal-plastic-surgery",
+      "image": "/services/bleaching.jpg",
+      "content": "Periodontal plastik cerrahisi, periodontal dokunun ve ağız boşluğundaki çevre dokuların görünümünü iyileştirmeyi amaçlar. Yaygın işlemler arasında diş kontürü, taç büyütme, diş nakli, kırışıklık artırma ve yumuşak doku pigment kaybı bulunmaktadır. Bu işlemler, gülümseme tasarımını geliştirmek, anormallikleri düzeltmek ve diş eti sağlığını yeniden kazandırmak amacıyla yapılmaktadır. Özel durumlarınız için en iyi tedavi yöntemini belirlemek üzere eğitimli bir ortodontistle konuşmak kritik öneme sahiptir.",
+      "related": {},
+      "alt": ""
+    },
+    "dental-implants": {
+      "name": "Diş implantları",
+      "href": "/dental-implants",
+      "image": "/services/implants.jpg",
+      "content": "Titanyumdan yapılan ve gerçek diş köklerine benzer şekilde şekillendirilen diş implantları, kaybedilen dişlerin yerine geçmek için ideal bir seçenek sunar. %95-98 başarı oranıyla, kalıcı ve doğal görünümlü bir onarım sunuyorlar. Avantajlar, çene yapısının korunması, daha iyi diş sağlığı ve daha iyi çiğneme ile etkileşimdir. Esneklikleri, tek diş değişimlerinin yanı sıra tam çene onarımlarına da olanak tanır. Kesin tanı, doğru yerleştirme ve kapsamlı hasta bakımı, başarı için hepsi hayati öneme sahiptir.",
+      "related": {
+        "1": "/porcelain-fillings",
+        "2": "/composite-fillings"
+      },
+      "alt": ""
+    },
+    "crowns-bridges": {
+      "name": "Taçlar ve Köprüler",
+      "href": "/crowns-bridges",
+      "image": "/services/fillings.jpg",
+      "content": "Kronlar ve köprüler, diş restorasyonunda önemli bir rol oynar çünkü hem işlevsel diş sorunlarına çözümler sunarlar. Kırık dişlerin yerine geçen, koruyucu kaplara benzeyen kronlar, porselen veya metal alaşımları gibi malzemeler kullanarak uzun ömür ve doğal bir görünüm sağlar. Eksik dişlerin yerini alan köprüler, taçlar veya implantlar ile bir arada tutulan yapay dişlerden oluşmaktadır. Çiğneme yeteneğini geliştirirken, aynı zamanda çevredeki dişlerin hareket etmesini de engellerler. Doldurulamayacak kadar büyük diş hasarlarını onarabilirler. Bir diş kaybı durumu olarak, hasar görmüş dişi porselenle onarabiliriz. Bu tür bir onarıma köprü denir. Bir diş taç için hazırlanırken kullanılan iki ana diş küçültme türü vardır. Onlar: Aşama aşama diş küçültme. Adım Adım Olmayan (Step-by-Step) Diş hekimliği. Non-Step Diş Hekimliği'nde daha maliyet etkin metal destekli kronlar ve köprüler hazırlanabilir. Zirkonyum ve Alüminyum Oksit gibi estetik bir altyapı kullanıyorsanız, Adım Adım Diş Hekimliği yöntemini tercih etmelisiniz. Adım Adım Diş Hekimliği sürecinde yapılan restorasyonlar diş etlerine baskı yapmadığı için dişin doğasına uygun, daha sağlıklı sonuçlar sunar. Bugün, Zirkonyum/Alüminyum Oksit Altyapısı tercih edilmektedir. Metal destekli kornea taçları üzerinde kornea taçları ve pellucid kornea taçları",
+      "related": {
+        "1": "/services/porcelain-fillings",
+        "2": "/services/composite-fillings"
+      },
+      "alt": "fillings"
+    },
+    "immediate-dental-implant-placement": {
+      "name": "Derhal diş implantları yerleştirme",
+      "href": "/immediate-dental-implant-placement",
+      "image": "/services/porcelain-fillings.jpg",
+      "content": "Porselen dolgu, çürümüş dişleri onarmak için diş hekimliğinde kullanılan seramik bir tamirdir. Gerçek dişlere benziyorlar ve dayanıklılar, uyumlu da. Estetik çekicilikleri ve dişlerin yapısını koruma yetenekleri nedeniyle popülerler. Porselen dolgu (inlay ve onlay) daha büyük diş çürükleri için güç, hassas uyum ve estetik çekiciliği nedeniyle önerilmektedir. Bir üretim tesisinde özelleştirilen bu dişler, doğal dişlerle aynı renk ve forma sahip olup, kalıcı ve estetik açıdan çekici bir seçenek sunmaktadır.",
+      "related": {
+        "1": "/porcelain-laminate-veneers"
+      },
+      "alt": "Porcelain Fillings"
+    },
+    "smile-makeover": {
+      "name": "Gülümse Makeover",
+      "href": "/smile-makeover",
+      "image": "/services/composite-fillings.jpg",
+      "content": "Gülüş yenileme, gülüşünüzün görünümünü iyileştiren kişiselleştirilmiş bir estetik diş hekimliği tedavisidir. Diş beyazlatma, veneer, diş implantları ve ortodonti gibi çeşitli işlemleri içerebilir; bunların hepsi renk değişikliği, yanlış hizalanma veya eksik dişler gibi sorunları çözmek için tasarlanmıştır. Tedavi olanakları, rahatsızlık derecesine bağlı olarak değişiklik gösterir ve dişlere yapıştırma, kaplama ve dolgu, kanal tedavisi veya diş çekimi gibi işlemleri içerebilir. Hızlı diş değerlendirmesi, ek hasarları önlemek ve rahatsızlığı hafifletmek için kritik öneme sahiptir. Gerçek dişlere benziyorlar ve dayanıklılar, uyumlu da. Estetik çekicilikleri ve dişlerin yapısını koruma yetenekleri nedeniyle popülerler. Bir üretim tesisinde özelleştirilen bu dişler, doğal dişlerle aynı renk ve forma sahip olup, kalıcı ve estetik açıdan çekici bir seçenek sunmaktadır. Amaç, yüz hatlarınızla uyumlu ve kişisel beklentilerinize uygun, güzel ve etkileyici bir gülümseme elde etmektir.",
+      "related": {
+        "1": "/fillings"
+      },
+      "alt": "composite-fillings"
     }
   },
-
   "FAQs": {
     "title": "sıkça Sorulan Sorular",
     "full-length": "Sıkça Sorulan Sorular",
     "1": {
-      "q": "Randevu nasıl alınır?",
-      "a": "Bir randevu almak için iki kolay yöntemle kolayca randevu alabilirsiniz <br/> 1. Web sitemizi ziyaret edin ve randevu alma sekmesini seçin. Gerekli alanları doldurun ve gün seçin. Ekibimiz size uygunluk durumuna göre onaylamak veya alternatifler sunmak için sizi arayacaktır. 2. WhatsApp simgesini kullanın ve personelimiz doğrudan size yardımcı olacaktır. Size en iyi randevu deneyimini sunmaktan gurur duyuyoruz."
+      "q": "Randevu nasıl alabilirim?",
+      "a": "Bizimle randevu almak oldukça kolay; iki basit yöntemle. Web sitemizi ziyaret edin ve randevu alma sekmesini seçin. Gerekli alanları doldurun. Ekibimiz, mevcut duruma göre onaylamak veya alternatifler sunmak için sizi arayacak. 2. WhatsApp simgesini kullanın ve ekibimiz size doğrudan yardımcı olacaktır.Sizlere en iyi randevu deneyimini sunmaya kendimizi adadık."
     },
     "2": {
-      "q": "Neden ünlüler dişlerini yaptırmak için Türkiye'ye seyahat ediyorlar?",
-      "a": "Ünlüler, Türkiye'nin yüksek kaliteli bakımı uygun bir maliyetle sunması nedeniyle diş operasyonları için Türkiye'yi seçiyorlar. Gelişmiş teknolojisi, kapsamlı tatil paketleri, gizlilik ve yüksek değerlendirmeleri onu ilginç bir seçenek haline getiriyor. Türkiye, mükemmel tedavi ve samimi bir ortamın birleşimini sunarak diş bakımı için mükemmel bir seçenek oluşturuyor."
+      "q": "Hangi tür diş implantları sunuyorsunuz ve süreç nasıl işliyor?",
+      "a": "Diş implantları, subperiosteal, zigomatik formlar ve endosteal dahil olmak üzere, elmacık kemiği veya çene kemiğine cerrahi olarak yerleştirilir. İyileştikten sonra, yapay dişler takılır. Takip seansları, izleme ve bakım için hayati öneme sahiptir."
     },
     "3": {
-      "q": "Hemen hassas diş ağrısını nasıl durdurabilirim?",
-      "a": "Hassas diş ağrısını hızlı bir şekilde tedavi etmek için uyuşturucu diş macunu kullanın, ılık tuzlu suyla gargara yapın, bölgeye soğuk kompres uygulayın, asidik yiyeceklerden kaçının, nazikçe fırçalayın, diş gıcırdatma için ağız koruyucuları düşünün, gerekirse ağrı kesiciler alın ve ağrı devam ederse bir diş hekimine danışın."
+      "q": "Hassas diş ağrısını hemen nasıl durdurabilirim?",
+      "a": "Hassas dişlerdeki rahatsızlığı hızlı bir şekilde gidermek için, anestezik diş macunu kullanın, ılık tuzlu su ile gargara yapın, bölgeye soğuk kompres uygulayın, asidik yiyeceklerden kaçının, nazikçe fırçalayın, diş gıcırdatma için diş koruyucu düşünün, gerekirse ağrı kesici alın ve ağrı devam ederse bir diş hekimine danışın. "
     },
     "4": {
-      "q": "Diş beyazlatma ne kadar sürer?",
-      "a": "Diş beyazlatma işlemleri genellikle altı ay ile iki yıl arasında değişir, uygulanan yönteme ve kişisel alışkanlıklara bağlı olarak. Yiyecek boyası, alkol tüketimi, sigara içme ve diş fırçalama ve diş ipi kullanımı beyazlatmanın süresini etkiler. Uzun vadeli faydalar elde etmek için bakım prosedürleri gerekebilir."
+      "q": "Dr. Cem aynı zamanda bir profesör ve bilim insanı mı? Bu uzmanlık hastalara nasıl fayda sağlar?",
+      "a": "Prof. Dr. Cem Baysal'ın hem akademisyen hem de bilim insanı olarak sahip olduğu çift yetenek, hastalarının yenilikçi ve araştırma temelli bakım almasını sağlayarak onlara yardımcı olmaktadır. Modern yenilikçi tedaviler üzerindeki çalışmaları, sinüs kaldırma işlemleri için 'Baysal tekniği' gibi, daha güvenli, daha verimli prosedürler ve daha iyi sonuçlar elde edilmesini sağlıyor. Kanıta dayalı uygulamalara olan bağlılığı, tedavilerin en güncel bilimsel bulgulara dayandığını garanti eder ve bir eğitimci olarak konumu, onu diş hekimliği gelişmelerinin ön saflarında tutar. Dr. Baysal'ın yenilikçi, araştırmaya dayalı ve kapsamlı uzmanlığı, her hastanın özel ihtiyaçlarına göre kişiselleştirilmiş, bütünleyici ve son derece etkili bir bakım sunmasına olanak tanımaktadır."
     },
     "5": {
-      "q": "Dişlerimi Türkiye'de yaptırmak ne kadar tutar?",
-      "a": "Türkiye'de diş operasyonlarının maliyeti, gerekli restorasyon türü ve prosedürün detayları dahil olmak üzere birçok faktöre bağlı olarak değişebilir. Size tahmini bir fiyat aralığı vermek gerekirse, tüm hizmetlerin fiyatları ücretsiz bir danışmanlıkla başlar ve 180 € ile 720 € arasında değişir."
+      "q": "Kronlar ve köprüler arasındaki fark nedir?",
+      "a": "Kronlar ve köprüler, estetik ve fonksiyonel diş sorunları için diş restorasyonunda hayati öneme sahiptir. Kronlar, kırık dişlerin yerini porselen veya metal alaşımlarla alırken, köprüler yapay diş yerine geçer. Adım adım diş hekimliği ve adım adım olmayan diş hekimliği yöntemleri, maliyet etkin ve estetik restorasyonlar için kullanılmaktadır."
+    },
+    "6": {
+      "q": "Diş beyazlatma ne kadar sürer?",
+      "a": "Diş beyazlatma tedavileri genellikle uygulanan yönteme ve kişisel alışkanlıklara bağlı olarak altı ay ile iki yıl arasında sürer. Gıda boyası, alkol tüketimi, sigara içme ve diş fırçalama ile diş ipi kullanma, beyazlatma süresini etkileyen faktörlerdir. Uzun vadeli faydalar elde etmek için bakım prosedürleri gerekebilir."
     }
   },
   "Home": {
     "hero": {
       "h1": "OLMAK KENDİNDEN EMİN",
-      "h2": "Doktor Cem, Global Klinik Derecelendirme Listesi'ne göre 'Dünyanın en iyi 10 diş hekimi' arasında yer alıyor.",
-      "cta1": "Blogu okuyun",
+      "h2": "Dr. Cem Baysal ile Birinci Sınıf Diş Bakımını Deneyimleyin.",
+      "h3": "Üniversite Profesörü, Oral Diagnoz, Radyoloji, ileri cerrahi, kozmetik tedaviler, tedavi planlaması ve İmplantoloji",
+      "cta1": "Dr. Baysal'ın Uzmanlık Alanı Hakkında",
       "cta2": "Randevu alın"
+    },
+    "whychooseus": {
+      "h1": "İnovasyon ve Tutku ile Lider Diş Hekimliği - Türkiye'nin En İyi Diş Kliniği",
+      "h2": "Türkiye'de Akredite ve Güvenilir Diş Bakımı.",
+      "p1": "Dr. Cem Baysal'ın kliniğinde, yenilikçi yaklaşımları ve olağanüstü hasta bakımıyla tanınan Oral ve Maksillofacial Radyoloji ve Oral Implantoloji alanında tanınmış bir kişilik olarak olağandışı diş sağlığı hizmetleri sunuyoruz.",
+      "p2": "Dr. Cem Baysal'ın kapsamlı eğitim ve tecrübesi, ",
+      "p1a1": "Guglielmo Marconi Üniversitesi'nde",
+      "p1a2": "İstanbul Üniversitesi ",
+      "p3": "Diş Hekimliği Fakültesi'nde ve ",
+      "p3a1": "İstanbul Kent Üniversitesi",
+      "p3a11": " ndeki Ağız Tanımı ve Radyoloji Bölümü Başkanı olarak görev yaptığı, ",
+      "p3a2": "Gugglielme Marconi Üniversitesi'nde ",
+      "p3a3": "Öğretmen ve  ",
+      "p3a4": "Startest Tanım ve Görüntüleme ",
+      "p4": "Merkezi'nde Ağız Maksillofacial Radyoloji Uzmanı olarak çalışmalarını da içeren mükemmelliğe olan bağlılığımızı desteklemektedir. ",
+      "p5": "Dr. Cem Diş Hekimi, diş sağlığınızla ilgili bilgili kararlar almanıza olanak sağlayan hasta eğitimi öncelik veriyor. Eğitilmiş ekibimiz her tedaviyi tam olarak açıklayacak ve herhangi bir endişenizi karşılayacak, süreç boyunca kendinizi güvende ve bilgilendirdiğinizden emin olabilirsiniz. Profesyonellik ve kalitenin uluslararası standartlarına uymaktayız, hastalarımıza en yüksek düzeyde bakım sağlanmasını sağlamak."
+    },
+    "whychoosedrcem": {
+      "h3": "Neden Dr. Cem Baysal seçmelisiniz? ",
+      "li1": "Dr. Cem Baysal, Türkiye'nin İstanbul'daki en iyi dişçi olarak tanınmaktadır.",
+      "li2": "Klinikimiz, hassas ve verimli tedaviler için son teknolojiyi kullanmaktadır.",
+      "li3": "Dr. Cem'in klinikleri 2023 kliniği ödül kazananları olarak onurlandırıldı.",
+      "li4": "Dr. Cem Baysal'ın 33 yıllık deneyimi eşsiz bakım ve olağanüstü sonuçlar sunuyor.",
+      "li5": "2024 yılında, Global Klinik Değerlendirme Listesi tarafından dünyanın en iyi 10 dişçi arasında yer aldı. Onun başarıları alanında tutku ve yeteneklerini gösteriyor.",
+      "li6": "Dr. Baysal, Türk Diş Sağlığı Derneği'nin önemli bir üyesidir ve kariyeri boyunca pek çok profesyonel organizasyonda aktif bir katılımcı olmuştur."
+    },
+    "allservices": {
+      "service1": "Periodontal plastik cerrahi",
+      "service2": "Diş Fenerleri",
+      "service3": "Diş implantı",
+      "service4": "Masajcı Botox",
+      "service5": "Gülümse Makeover",
+      "morebtn": "Daha fazla"
     },
     "services": {
       "h1": "Hizmetlerimizi keşfedin",
-      "h2": "İhtiyaçlarınıza uygun geniş bir diş hizmetleri yelpazesi sunuyoruz."
+      "h2": "İhtiyaçlarınıza uygun geniş bir diş hizmetleri yelpazesi sunuyoruz.",
+      "cta": "Daha fazlasını oku"
     },
     "map": {
-      "h1": "Bizi haritada bulun",
+      "h1": "Bizi haritada bul.",
       "address": "Hacı Emin Efendi Caddesi Eserim Apt. No 64 Kat: 2 Daire: 8-34365 - Teşvikiye, Nişantaşı, Istanbul, 34365 | Apt. No 64 Kat: 2 Daire: 8-34365 - Teşvikiye, Nişantaşı, Istanbul, 34365"
+    },
+    "footer": {
+      "title": "Randevunuzu şimdi alın.",
+      "copyright": "Her Hakkı Saklıdır"
     }
   },
   "Reviews": {
-    "title": "Hastalarımızın söyledikleri",
+    "title": "Hastalarımız bizim hakkımızda ne diyor?",
     "data": {
       "5": {
         "name": "Alan DaCosta",
         "picture": "https://lh3.googleusercontent.com/a-/ALV-UjU2yVJCx2nKa9syPWdn88vgGhdarDEBBipqK0AbJHTy2Jc=w48-h48-p-rp-mo-ba2-br100",
-        "content": "Skandinavya'dan Dr. Cem'i ziyaret etmek için seyahat ediyorum, işi mükemmel, ekibin etkili ve nazik. Müşterilerini sakin ve anlayışlı bir şekilde tedavi ediyor, kemiğime greft, akıl dişi çekimi ve implant yaptırdım. Hiç acı yok... Hizmetlerini dinlemek isteyen herkese öneriyorum. Üniversiteden bir öğretim üyesi ve çift doktoralı birinin benim üzerimde çalışmasına çok şanslı hissediyorum. 5 yıldız",
+        "content": "İskandinavya'dan Dr. Cem'i ziyaret etmek için seyahat ediyorum, çalışmaları mükemmel ve ekibi verimli ve nazik.Müşterilerine sakin ve anlayışlı bir şekilde davranıyor. Benim bir kemik grefti, bir yirmilik diş çekimi ve bir implantım yapıldı. Sıfır acı... Hizmetlerini dinlemek isteyen herkese öneririm ve önerdim. İki doktora sahibi ve üniversiteden bir öğretim görevlisiyle çalışıyor olmaktan büyük bir ayrıcalık hissediyorum. 5 yıldız",
         "month": "1",
         "year": "2024"
       },
       "2": {
         "name": "Miracle Adoh",
         "picture": "https://lh3.googleusercontent.com/a-/ALV-UjVNrWLawAsGay2F3GyE7cgRyStSLk02JdgbTROSDPkvmg=w48-h48-p-rp-mo-br100",
-        "content": "Doktor çok sakin ve gerçekten yardımcı olan tedaviler öneriyor, sadece para kazanmak için değil. Birçok Türk diş hekimi kaplamaları önerirken, Dr. Cem Invisalign önerdi ve 2 aydan az sürede değişiklikler gördüm. Tedavi 4 ayda tamamlanacak!",
+        "content": "Doktor gerçekten çok rahat ve sadece para kazanmak için değil, gerçekten yardımcı olan tedaviler öneriyor. Birçok Türk diş hekimi veneer önerdi, ancak Dr. Cem Invisalign'ı önerdi ve 2 ay içinde değişiklikler gördüm. Tedavi 4 ay içinde sona erecek!",
         "month": "2",
         "year": "2024"
       },
       "3": {
         "name": "Asena Kok Yucebilgic",
         "picture": "https://lh3.googleusercontent.com/a/ACg8ocLrgEPltHWLyJVpxIk-oqDa6E-Ekx1R8Cjky44M4jkb=w48-h48-p-rp-mo-ba5-br100",
-        "content": "Dr. Cem Baysal benim diş hekimim 2009'dan beri. 2017'de Minnesota/ABD'ye taşındıktan sonra bile herhangi bir sorun için ona gidiyorum ve ABD'de kapsamım yok. Harika bir profesyonel, her şeyi mükemmel ve pürüzsüz yapıyor. Bu yaz bir implant yaptırdım ve hiç sorun yaşamadım. Direkt olarak onun ofisinden kebap yemeye gittim. 13 yılda, 13 yıl önce yaptığı dolgularımda hiçbir şey olmadı, tüm akıl dişlerimi operasyonla çıkardı ve ondan sonra yemek yiyebildim. Başka kimseye güvenemem. O en iyisi!",
+        "content": "Dr. Cem Baysal, 2009'dan beri diş hekimim. 2017'de Minnesota/ABD'ye taşındıktan sonra bile, herhangi bir sorun için hâlâ ona gidiyorum ve ABD'de sigortam yok. O, gerçekten harika bir profesyonel. Her şeyi mükemmel ve çok akıcı bir şekilde yapıyor. Bu yaz herhangi bir sorun yaşamadan bir implant yaptırdım. Ondan sonra doğrudan ofisinden kebap yemeye gittim. 13 yıl boyunca, 13 yıl önce yaptığı dolgulara hiçbir şey olmadı, tüm akıl dişlerimi ameliyatla aldı ve sonrasında yemek yemeye de devam edebildim. Başka kimseye güvenemem. O en iyisi!!",
         "month": "1",
         "year": "2023"
       },
       "4": {
         "name": "Sabina",
         "picture": "https://lh3.googleusercontent.com/a-/ALV-UjVJjHmrAelZUHlG7JhhWHfACsCChBlNZTV32CNUrHrZKQQ=w48-h48-p-rp-mo-br100",
-        "content": "Bu profesyonelle tanışmak için çok şanslıydım. Bu yaz bir implant yaptırdım. Her şey baştan sona çok düzgün gitti. Dr. Cem Baysal ve ekibi sizi hoş ve güvende hissettirmek için elinden geleni yapıyor. Böyle samimi bir ortamı görmek çok nadir. Detaylara çok dikkat ediyorlar ve işlerini mükemmel yapıyorlar! Dr. Baysal parlak, onu gördüğünüz anda iyi ellerde olduğunuzu bilirsiniz. Bilgili, deneyimli ve ne yaptığını bilir. Kesinlikle Dr. Baysal'ı ve ekibini öneririm! Yeni dişimle çok mutluyum :)",
+        "content": "Bu profesyonele ulaşmak için çok şanslıydım. Bu yaz bir implant yaptırdım. Her şey başından itibaren çok sorunsuz gitti. Dr. Cem Baysal ve ekibi, kendinizi hoş karşılanmış ve güvende hissetmenizi sağlayacak. Böyle dostane bir ortamı görmek çok nadirdir. Detaylara çok dikkat ediyorlar ve işlerini mükemmel bir şekilde yapıyorlar! Dr. Baysal harika, onu gördüğünüz anda iyi ellerde olduğunuzu anlıyorsunuz. Bilgili, deneyimli ve ne yaptığını biliyor. Kesinlikle Dr. Baysal ve ekibini tavsiye ederim! Yeni dişimden çok mutluyum :)",
         "month": "4",
         "year": "2023"
       },
       "1": {
         "name": "Lily Olaru",
         "picture": "https://lh3.googleusercontent.com/a-/ALV-UjUBhpbNohi53WITg2E8CU5N1DgwAiB_hKLs-_9XMD8b3eA=w48-h48-p-rp-mo-br100",
-        "content": "Dr. Cem Baysal ve olağanüstü ekibi, diş implantları ve kuronları da içeren olağanüstü bir diş deneyimi sundular. Kliniğin sıcak ve dostane atmosferi, Dr. Baysal'ın profesyonel uzmanlığıyla birleşerek süreç boyunca rahat hissetmemi sağladı. Diş implantı ameliyatı, Dr. Baysal'ın hassasiyeti ve harika asistanların desteği sayesinde ağrısız ve verimli geçti. Kuronların yerleştirilmesi de aynı şekilde sorunsuzdu, detaylara büyük özen gösterilerek, güzel ve doğal bir gülümsemeyle sonuçlandı. Dr. Baysal'ın kişiye özel bakıma olan bağlılığı ve mesleğine olan tutkusu, tüm deneyimi gerçekten olağanüstü kıldı. Üst düzey diş implantı ve kuron prosedürleri için Dr. Baysal'ı ve ekibini şiddetle tavsiye ederim. Bu yeri çok seviyorum, ofisleri çok temizdi, personel çok dostane ve beni rahat hissettirmek için her türlü özeni gösterdiler. Dr. Cem Baysal, çok empatik bir diş hekimi ve sorunlarımı tedavi etmek için gerçek bir plana sahipti. Tıbbi bir ofiste yaşadığım en iyi deneyimdi ve aslında bir sonraki ziyaretimi dört gözle bekliyorum. Yardımınız için teşekkür ederim."
-      },
-      "month": "4",
-      "year": "2023"
-    }
+        "content": "Dr. Cem Baysal ve olağanüstü ekibi, diş implantları ve kronları içeren mükemmel bir diş deneyimi sundu. Klinikteki sıcak ve samimi atmosfer, Dr. Baysal'ın profesyonel uzmanlığı ile birleşince, süreç boyunca kendimi rahat hissetmemi sağladı. Diş implantı ameliyatı, Dr. Baysal'ın hassasiyeti ve harika asistanların desteği sayesinde ağrısız ve verimli geçti. Kronların yerleştirilmesi de son derece sorunsuzdu, büyük bir detay hassasiyetiyle gerçekleştirildi ve sonuç olarak güzel ve doğal görünümlü bir gülümseme elde edildi. Dr. Baysal'ın kişiye özel bakım konusundaki özverisi ve işine olan tutkusu, tüm deneyimi gerçekten olağanüstü kıldı. Dr. Baysal ve ekibini üst düzey diş implantı ve kaplama işlemleri için şiddetle tavsiye ediyorum. Bu yeri çok seviyorum, ofisleri çok temizdi, personel son derece dost canlısı ve bana rahat hissettirmek için gereken her şeyi yaparak oldukça yardımcı oldular. Dr. Cem Baysal çok empatik bir diş hekimi ve sorunlarımı tedavi etmek için gerçek bir planı var. Bir tıp ofisinde yaşadığım en iyi deneyimdi ve aslında bir sonraki ziyaretimi dört gözle bekliyorum. Bana yardım ettiğin için teşekkür ederim.",
+        "month": "4",
+        "year": "2023"
+      }
+    },
+    "months": "aylar önce",
+    "readmore": "Daha fazlasını oku",
+    "showless": "Daha Az Göster"
   },
   "About": {
-    "title": "Oral teşhis uzmanı ve Radyoloji Uzmanı.",
+    "img1-alt": "Dr. Cem Baysal İş Başında",
+    "img2-alt": "Dr. Cem'in diş hekimliğinde etkili bir figür olma yolculuğu sınıf odalarında başladı.",
+    "title": "Sürekli Yenilik Yolculuğu",
     "content": {
-      "1": "1991'den beri, Dr. Med. Dent. Cem Baysal, akademik uzmanlık gerektiren tüm bölümlerde diş hekimliği hizmetleri sunmak için ekibiyle birlikte çalışmaktadır.",
-      "2": "Kliniğinde, özel çözümler oluşturmak için en son ve en modern ekipmanları kullanmaktadır. Hizmetleri arasında ileri cerrahi, kozmetik tedaviler, teşhisler ve tedavi planlaması bulunmaktadır, ki bu da uzmanlık alanındaki ana tedavi bölümleridir.",
-      "3": "Dr. Baysal'ın akademik hayatı diş tedavisi alanındaki çalışmalarıyla başladı ve mezun olduktan sonra oral teşhis ve radyoloji alanında doktora derecesini aldı.",
-      "4": "İstanbul Üniversitesi Tıp Fakültesi Mikrobiyoloji Bölümü'nde üç yıl boyunca çeşitli araştırma projeleri yürüttü, burada mikrobiyolojik temelli tekrarlayan aftöz ülserlerin neden ve açıklamasını ilk kez keşfeden bilim insanı oldu.",
-      "5": "Ayrıca Gulhane Askeri Tıp Akademisi'nde diğer diş alanlarında cerrahi prosedürler gerçekleştirdi. 10 yıllık eğitimden sonra, implantlar ve cerrahinin diğer bölümlerindeki becerilerini geliştirdi."
-    }
+      "1": {
+        "bold": "Ağız Diagnozu Uzmanı ve yenilikçi düşünce:",
+        "text": "Dr. Baysal'ın yolculuğu, farklı deneyimlerin nasıl olağanüstü kariyerler şekillendirebileceğini gösteriyor; bu da yüzlerce olumlu hasta yorumu ile kanıtlanıyor. Türkiye ve Avrupa'dan hastalar, uzmanlık alanındaki benzersiz bakış açısı nedeniyle onun vaka yönetimine güveniyor."
+      },
+      "2": {
+        "bold": "Dr. Cem, Yenilik ve Tutku ile Diş Hekimliğini",
+        "text": "YönlendiriyorDiş hekimliği dünyasında, Dr. Cem, akademik yeterlilik, klinik deneyim ve yenilikçi bir tutumu bir araya getiren çok nadir çift branş uzmanlarından biridir. Üç on yılı aşan bir kariyere sahip olan Dr. Cem, yalnızca diş hekimliği uygulamalarının büyümesine tanıklık etmekle kalmamış, aynı zamanda radyoloji ve implantolojiyi birleştirerek yenilikçi prosedürler ve sarsılmaz bir özveri ile geleceğini aktif olarak etkilemiştir. Bu sayede implantoloji ve cerrahide çok yüksek başarılar elde edilmiştir."
+      }
+    },
+    "adventure-title": "Sürekli Öğrenme Macerası",
+    "adventure-para1": "Dr. Cem'in diş hekimliğinde etkili bir figür olma macerası, Türkiye'nin Ankara kentindeki sınıflarda başladı ve ortaokul yıllarında Almanya'nın Schwabmünchen şehrinde uluslararası boyut kazandı. Bu ilk diğer kültürlerle tanışma, onun diş hekimliği uygulamaları konusundaki küresel bakış açısını şekillendirdi. ",
+    "adventure-para2": "1987 yılında, saygın İstanbul Üniversitesi Diş Hekimliği Fakültesi'nde resmi diş hekimliği eğitimine başladı. Ancak Dr. Cem için 1991'de diplomasını almak sadece bir başlangıçtı. Bilgiye durmaksızın bir açlıkla, 1998 yılında tamamladığı Ağız ve Çene Cerrahisi Radyolojisi alanında doktora unvanı aldı. Bu dönemde, İstanbul Üniversitesi Tıp Fakültesi'nde mikrobiyoloji ve viroloji de okudu ve diş araştırmalarına olan disiplinlerarası yaklaşımını gösterdi.",
+    "managing-title": "Akademik ve Klinik Uygulamayı Yönetmek",
+    "managing-para": "Dr. Baysal'ın profesyonel kariyeri 1991 yılında, kendi ağız cerrahisi muayenehanesini açtığında başladı. Her zaman pratik deneyim ile akademik algının birleştirilmesinin önemine inanmıştır. Akademik görevlerine ek olarak, 2016'dan 2019'a kadar G. Marconi Üniversitesi'nde öğretim görevlisi ve misafir profesör olarak çalıştı. Şu anda İstanbul'da Radyoloji Anabilim Dalı Başkanlığı ve Doçent olarak çalışmaktadır. Kent Üniversitesi 2018'den beri devam ediyor ve hala devam ediyor. \"Zamanımı yönetmek için günü, sabahları üniversitede ve öğleden sonraları klinikte olacak şekilde ayırmak zorunda kaldım.\" Diş hekimliği mesleğinin bir sonraki neslini etkilemek için. Bu denge duygusu, onun başarısının belkemiği olmuştur.",
+    "img3-alt": "Dr. Cem bir ders veriyor.",
+    "technique-title": "Baysal Tekniği: Sinüs Yükseltme Tekniklerinde Oyun Değiştirici",
+    "technique-para": "Dr. Cem, 2022 yılında büyük alanlı sinüs kaldırma işlemleri için \"Baysal tekniği\"ni geliştirdiğinde diş hekimliğinde en büyük atılımını yaptı. Bu yenilikçi teknik, diş implantolojisinde yaygın bir sorunu ele alıyor: üst azı dişleri bölgelerinde yeterli kemik olmaması. Baysal yaklaşımı, aynı anda implant yerleştirilmesi ve sinüs kaldırılmasını sağlar.",
+    "technique-li1": "kemik grefti gereksinimini azaltmak.",
+    "technique-li2": "sinüs perforasyonu riskini azaltmak.",
+    "technique-li3": "implantlarla kemik entegrasyonunu iyileştirmek.",
+    "technique-para2": "2024'te Dr. Cem, \"Baysal osteotomu\" adlı cihazı patentleyerek fikrini geliştirdi; bu cihaz, prosedürünü kullanmayı kolaylaştırıyor. Dr. Cem, \"Bu teknikle,\" diyor, \"üst molar bölgelerde kaybedilmiş kemiği olan hastalar, özellikle herhangi bir greft olmadan, lifting ile birlikte implantlara sahip olabilirler ve sinüs perforasyonu riski çok daha azdır.\"",
+    "Besides-title": "Diş Koltuğunun Dışında",
+    "Besides-para": "Dr. Cem'i tanımlayan sadece profesyonel başarıları değil, aynı zamanda geniş ilgi alanları ve becerileridir. Klinikte ya da ders verirken olmadığında, genellikle hobilerinin tadını çıkarıyor. O, özel bir pilot ve deniz kaptanı; bu da ona seyahat etme ve yeni maceralara atılma imkanı tanıyor. Aynı zamanda ata binmeyi, arama-kurtarma dalışını ve motosiklet sürmeyi de seviyor. Bu hobiler, Dr. Cem'in maceraperest doğasını ve yaşam boyu öğrenmeye olan inancını temsil ediyor; her ikisi de kesinlikle diş hekimliğine olan eşsiz yaklaşımını etkilemiştir. Bu aktiviteler sadece ona sevinç getirmekle kalmıyor, aynı zamanda onu dinç ve ilham dolu tutuyor.",
+    "Award-title": "Ödül ve Tanınma ",
+    "Award-img-alt": "Dr. Cem bir ders veriyor.",
+    "Award-para": "Dr. Baysal'ın diş hekimliğine yaptığı katkılar geniş çapta tanınmıştır. 10 Aralık 2023'te, Outlook'un \"Türkiye'deki En İyi 15 Diş Hekimi ve Diş Kliniği\" başlıklı makalesinde adı geçti. 2024'te, Global Klinik Derecelendirme Listesi tarafından dünyanın en iyi 10 diş hekimi arasında yer aldı. Onun başarıları, alandaki tutkusunu ve yeteneğini göstermektedir.",
+    "prof-assc": "Meslek kuruluşları:",
+    "Award-para2": "Dr. Baysal, Türk Diş Hekimleri Birliği'nin önde gelen bir üyesidir ve kariyeri boyunca birçok meslek kuruluşunda aktif bir katılımcı olmaya devam etmiştir.",
+    "connect": "Bağlantı kuralım",
+    "connect-para": "“Senden haber almak harika olurdu. Lütfen işimle ilgili herhangi bir sorunuz varsa, devrim niteliğindeki diş tedavilerini keşfetmek isterseniz ya da sadece bağlantı kurmak isterseniz benimle iletişime geçin. Bu web sitesindeki bilgilerle benimle iletişime geçebilirsiniz, size yardımcı olmaktan memnuniyet duyarım. Ziyaret ettiğiniz için teşekkür ederim, umarım yakında bağlantı kurarız.”",
+    "connect-para2": "Randevular, sorular veya daha fazla bilgi için lütfen buradan iletişime geçin."
   },
   "Philosophy": {
-    "title": "Felsefemiz",
-    "subHeader": "Gülüşleri ilham verme ve sağlığı destekleme üzerine odaklanıyoruz, hastaları kalite, şefkat ve yenilikçilik temelinde önceliklendirerek. Sürekli gelişim ve hasta eğitimine odaklanarak, optimal sonuçlar elde etmeyi ve güven ve saygıya dayalı ilişkiler kurmayı hedefliyoruz.",
-    "about": "Dr. Cem Diş Kliniği'nin felsefesi, gülüşleri ilham verme ve sağlığı destekleme üzerine odaklanarak, hastaları kalite, şefkat ve yenilikçilik temelinde önceliklendiriyor. Sürekli gelişim ve hasta eğitimine odaklanarak, optimal sonuçlar elde etmeyi ve güven ve saygıya dayalı ilişkiler kurmayı hedefliyoruz. Felsefemiz, her hastanın benzersiz olduğu ve özel dikkat ve gereksinimlerini karşılayan ve endişelerini gideren tedavi yöntemlerine sahip olduğu fikrine dayanmaktadır.",
+    "title": "Bizim Felsefemiz",
+    "subHeader": "Dr. Cem Baysal'ın kliniğindeki felsefemiz, kapsamlı eğitim, profesyonel deneyim ve mükemmeliyete olan sarsılmaz bağlılık üzerine sağlam bir temele dayanmaktadır. Mükemmeliyet ve uzmanlık ilkelerine dayanan olağanüstü diş bakımını sunmaya kendimizi adadık. Türk Diş Hekimleri Birliği'nin saygın bir üyesi ve sertifikalı bir sağlık turizmi sağlayıcısı olarak, uluslararası profesyonellik ve kalite standartlarını en yüksek seviyede koruyoruz.",
+    "about": "Üst düzey diş bakımını sunma taahhüdümüz, hastalarımızın olağanüstü bir tedavi almasını sağlar; bu da Dr. Baysal'ın geniş uzmanlığı ve alana olan bağlılığı ile desteklenmektedir. İster Türkiye'de diş beyazlatma, ister diş kaplaması, isterse diş kronu ile ilgileniyor olun, tüm diş ihtiyaçlarınızı karşılamak için kapsamlı bir hizmet yelpazesi sunuyoruz.",
     "principles": {
-      "title": "principles",
+      "title": "ilkeler",
       "1": {
-        "title": "Hastaya Odaklı Yaklaşım",
-        "contnet": "Hastaya Odaklı Yaklaşım: Hastalarımız yaptığımız her şeyin merkezindedir. Açık iletişimi, aktif dinlemeyi ve her kişinin ihtiyaçlarını anlamayı önceliklendiririz, böylece hedeflerine ve tercihlerine uygun tedavi stratejileri oluştururuz. Her hasta bireysel dikkat alır, bakımımızda güven ve rahatlık hissi oluşturur."
+        "title": "Hastalara odaklanmış. Yaklaşım",
+        "contnet": "Hastalara odaklanmış Yaklaşım: Hastalarımız, yaptığımız her şeyin merkezindedir. Açık iletişimi, aktif dinlemeyi ve her bireyin ihtiyaçlarını anlamayı önceliklendiriyoruz; böylece tedavi stratejilerini onların hedeflerine ve tercihlerine göre özelleştirebiliyoruz. Her hasta bireysel ilgi görerek, bakımımızda güven ve rahatlık oluşturuyor."
       },
       "2": {
         "title": "Diş Bakımında Uzmanlık",
-        "contnet": "Diş Bakımında Uzmanlık: En yüksek düzeyde diş uzmanlığını koruruz, her zaman bilgi ve becerilerimizi genişleterek yenilikçi prosedürler sunarız. Basit temizliklerden karmaşık operasyonlara kadar, eğitimli uzmanlarımız optimal sonuçlar elde etmek için doğruluk ve bilgiyi kullanır, hastalarımızın uzun vadeli ağız sağlığını garanti eder."
+        "contnet": "Diş Bakımında Uzmanlık: En yüksek düzeyde diş hekimliği uzmanlığını sürdürüyoruz, her zaman bilgimizi ve yeteneklerimizi genişleterek yenilikçi uygulamalar sunuyoruz. Basit temizliklerden karmaşık operasyonlara kadar, eğitimli uzmanlarımız doğruluk ve bilgi kullanarak en iyi sonuçları elde eder, hastalarımızın uzun vadeli ağız sağlığını garanti altına alır."
       },
       "3": {
-        "title": "Toplum Katılımı ve Eğitimi",
-        "contnet": "Toplum katılımı ve hasta eğitiminin uzun vadeli diş sağlığını desteklemede değerini anlıyoruz. Bireyleri optimal diş alışkanlıklarını sürdürmeye ve eğitimli ağız bakımı kararları vermeye aktif adımlar atmalarını sağlıyoruz, eğitim girişimi programları, eğitim seminerleri ve yardımcı materyaller aracılığıyla."
+        "title": "Topluluk Katılımı ve Eğitim",
+        "contnet": "Uzun vadeli diş sağlığını desteklemede topluluk katılımının ve hasta eğitiminin değerini anlıyoruz. Bireylerin optimal diş sağlığı alışkanlıklarını sürdürmeleri ve bilinçli ağız bakım kararları almaları için eğitim girişim programları, öğretici seminerler ve faydalı materyaller aracılığıyla aktif adımlar atmalarını sağlıyoruz."
       },
       "4": {
         "title": "Sürekli İyileştirme",
-        "contnet": "Sürekli iyileştirmeye bağlıyız ve sürekli olarak süreçlerimizi gözden geçiriyor, hasta geri bildirimleri alıyor ve değişen gereksinimlere ve beklentilere uyum sağlıyoruz. Eğitim ve yaratıcılık kültürü oluşturarak, her kalite beklentisini aşmayı ve diş tedavisinde en üstte kalmayı amaçlıyoruz."
+        "contnet": "Sürekli gelişime kendimizi adadık ve süreçlerimizi sık sık gözden geçiriyor, hasta geri bildirimleri üretiyor ve değişen gereksinimlere ve beklentilere uyum sağlıyoruz. Eğitim ve yaratıcılık kültürü oluşturarak, kalite konusundaki her beklentiyi aşmayı ve diş tedavisinde en üst seviyede kalmayı hedefliyoruz."
       }
     },
-    "footer": "Dr. Cem Diş Kliniği'nde, gülüşleri iyileştirme ve her seferinde bir hastanın sağlığını teşvik etme konusunda kararlıyız. Sürekli bir özen, doğruluk ve yenilikçilikle, diş mükemmelliğinin farkını keşfetmenizi motive ediyoruz, bu da diş tedavisindeki felsefemizi açıklar."
+    "footer": "Dr. Cem Diş Kliniği'nde, her bir hastanın gülümsemesini iyileştirmeye ve refahını artırmaya kendimizi adadık. Bakım, doğruluk ve yenilik konusundaki sürekli bağlılığımızla, diş tedavisindeki felsefemizi açıklayan diş mükemmelliğindeki farkı keşfetmeniz için sizi motive ediyoruz.",
+    "img_alt": "Doktor Cem Baysal İş Başında."
   },
   "Clinic": {
-    "title": "Dr Cem Baysal Diş Kliniğine Hoş Geldiniz",
-    "subHeader": "Gülüşünüzü en önemli önceliğimiz olarak koruyoruz. Modern tesisimiz, tüm diş ihtiyaçlarınız için samimi bir ortam ve modern teknoloji sunar. Yetenekli ekibimiz, ziyaretiniz sırasında sizi bilgilendirilmiş ve rahat hissettirmek için özel bir özen ve çaba gösterir.",
+    "title": "Dr. Cem Baysal Diş Kliniği'ne hoş geldiniz",
+    "subHeader": "Gülüşünüzü en öncelikli konumuz olarak tutuyoruz. Modern tesisimiz, tüm diş ihtiyaçlarınız için sıcak bir ortam ve modern teknoloji sunmaktadır. Yetenekli ekibimiz, ziyaretiniz sırasında sizi bilgilendirmek ve rahat ettirmek için özel bakım ve çaba sunmaktadır.",
     "content": {
-      "1": "Dr. Cem Diş Kliniğine hoş geldiniz, gülüşünüzü en önemli önceliğimiz olarak koruyoruz. Modern tesisimiz, tüm diş ihtiyaçlarınız için samimi bir ortam ve modern teknoloji sunar. Yetenekli ekibimiz, ziyaretiniz sırasında sizi bilgilendirilmiş ve rahat hissettirmek için özel bir özen ve çaba gösterir.",
-      "2": "Kapımızdan içeri girdiğinizde, sizi harika bir bakım sunmaya adamış iyimser ekibimiz tarafından karşılanacaksınız. Modern ekipmanlarımız ve samimi bekleme alanımız, randevunuzu beklerken kendinizi rahat hissettirmek için konforlu koltuklar ve rahatlatıcı tasarım sunar.",
-      "3": "Lider kliniğimiz, en son teknolojik gelişmelere sahip diş cihazları ile tam donanımlıdır, doğru teşhis ve başarılı tedaviler sağlar. Temel temizliklerden karmaşık prosedürlere kadar, deneyimli doktor uzmanlarımız, sizin özel ihtiyaçlarınıza uygun kişiselleştirilmiş bakım sunmaya adanmıştır.",
-      "4": "Dr. Cem Diş Kliniği, hasta eğitimini önceliklendirir ve diş sağlığınızla ilgili bilinçli kararlar almanıza olanak tanır. Eğitimli ekibimiz, her tedaviyi tamamen açıklayacak ve herhangi bir endişenizi cevaplayacak, böylece süreç boyunca kendinizi güvende ve bilgilendirilmiş hissedeceksiniz. Temel bir kontrol veya uzman tedaviye ihtiyacınız olsun, Dr. Cem Diş Kliniği size şefkatli bakım ve dikkate değer sonuçlar sunacaktır."
-    }
+      "1": "DR Cem Diş Kliniği'ne hoş geldiniz, burada gülüşünüzü en öncelikli konumuz olarak görüyoruz. Modern tesisimiz, tüm diş ihtiyaçlarınız için sıcak bir ortam ve modern teknoloji sunmaktadır. Yetenekli ekibimiz, ziyaretiniz sırasında sizi bilgilendirmek ve rahat ettirmek için özel bakım ve çaba sunmaktadır.",
+      "2": "Kapılarımızdan içeri girdiğinizde, size harika bir bakım sunmaya kendini adamış iyimser ekibimizle karşılaşacaksınız. Modern ekipmanlarımız ve samimi bekleme alanımız, randevunuzu beklerken rahat hissetmeniz için konforlu koltuklar ve dinlendirici bir tasarım sunmaktadır.",
+      "3": "Önde gelen kliniğimiz, en son gelişmiş diş teknolojik cihazlarıyla tam donanımlıdır ve doğru tanı ile başarılı tedaviler sunmaktadır. Temel temizliklerden karmaşık işlemlere kadar, uzman doktorlarımız ihtiyaçlarınıza uygun kişiselleştirilmiş bakım sunmaya kendini adamıştır.",
+      "4": "DR Cem Diş Kliniği, hasta eğitimine öncelik vererek, diş sağlığınızla ilgili bilinçli kararlar almanızı sağlıyor. Eğitilmiş ekibimiz her tedaviyi tamamen açıklayacak ve aklınızdaki her türlü endişeyi yanıtlayarak, süreç boyunca kendinizi güvende ve bilgilendirilmiş hissetmenizi sağlayacaktır. İster basit bir muayene, ister uzman tedaviye ihtiyaç duyun, DR Cem Diş Kliniği şefkatli bir bakım ve olağanüstü sonuçlar sunacaktır."
+    },
+    "cta": "Daha fazlasını oku",
+    "img_alt": "Doktor Cem Baysal İş Başında."
+  },
+  "blogs": {
+    "title": "Öne çıkan bloglarımız"
   }
 }
