@@ -6,7 +6,7 @@ export default function WhyChooseUs() {
   const t = useTranslations("Home.whychooseus");
   return (
     <div className="flex flex-col-reverse items-start gap-10 pt-12 sm:grid sm:grid-cols-5">
-      <Image
+     <img
         alt="Happy Patents"
         src="/why-choose-us.jpg"
         width={1000}

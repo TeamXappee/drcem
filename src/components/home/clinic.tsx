@@ -21,11 +21,11 @@ export default function ClinicSection() {
           </LocaleLink>
         </div>
         <div className="relative w-full h-64 sm:w-1/2 sm:h-auto">
-          <Image
+        <img
             src={"/dental-clinic.png"}
             alt="our clinic"
-            layout="fill"
-            objectFit="cover"
+            // layout="fill"
+            // objectFit="cover"
             className="rounded-t-2xl sm:rounded-l-xl sm:rounded-r-none"
           />
         </div>

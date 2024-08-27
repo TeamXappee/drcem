@@ -10,7 +10,7 @@ export default async function ServiceCard({ item }: { item: any }) {
   return (
     <div className="bg-muted h-[550px] relative -mx-[.8rem] shadow-md shadow-gray-200/20 text-cyan-950 rounded-3xl ease-in-out  duration-500 group-hover:-translate-y-[4px] group-hover:translate-x-[4px]">
       {t(`${item}.image`).startsWith("/") ? (
-        <Image
+       <img
           src={t(`${item}.image`)}
           alt=""
           width={400}

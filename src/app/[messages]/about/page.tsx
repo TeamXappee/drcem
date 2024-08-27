@@ -7,7 +7,7 @@ export default async function About() {
     <main className="px-[10vw] space-y-20 ">
       <div className="h-[30vh] sm:h-[45vh]">
         <div className="absolute top-0 left-0 flex items-center justify-center w-full h-[30vh] sm:h-[45vh] bg-black">
-          <Image
+          <img
             alt={t("img1-alt")}
             src="/about.png"
             width={1400}

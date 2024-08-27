@@ -8,9 +8,9 @@ export default function ServiceSquares() {
   return (
     <div className="grid gap-1 space-y-1 text-white lg:grid-cols-2 sm:space-y-0 lg:h-[600px]">
       <section className="relative flex items-start p-10 overflow-hidden bg-black sm:p-20 lg:rounded-l-2xl group ">
-        <Image
+      <img
           alt=""
-          layout="fill"
+          // layout="fill"
           src={"/small-img.jpg"}
           className="absolute object-cover duration-1000  ease-in-out brightness-[0.6] group-hover:scale-150 lg:rounded-l-2xl"
         />
@@ -28,9 +28,9 @@ export default function ServiceSquares() {
       </section>
       <section className="grid grid-rows-4 gap-1 sm:grid-rows-2 sm:grid-cols-2 ">
         <div className="relative flex items-end w-full h-full p-10 overflow-hidden bg-black aspect-square lg:aspect-auto group ">
-          <Image
+        <img
             alt=""
-            layout="fill"
+            // layout="fill"
             src={"/dental-veneers.png"}
             className="absolute object-cover w-full h-full duration-700 ease-out group-hover:scale-125 brightness-[0.6]"
           />
@@ -45,9 +45,9 @@ export default function ServiceSquares() {
           </div>
         </div>
         <div className="relative flex items-end w-full h-full p-10 overflow-hidden bg-black aspect-square lg:aspect-auto lg:rounded-tr-2xl group ">
-          <Image
+        <img
             alt=""
-            layout="fill"
+            // layout="fill"
             src={"/services/sm-1.png"}
             className="absolute object-cover w-full h-full duration-700 ease-out group-hover:scale-125 brightness-[0.6] lg:rounded-tr-2xl "
           />
@@ -64,9 +64,9 @@ export default function ServiceSquares() {
           </div>
         </div>
         <div className="relative flex items-end w-full h-full p-10 overflow-hidden bg-black aspect-square lg:aspect-auto group ">
-          <Image
+        <img
             alt=""
-            layout="fill"
+            // layout="fill"
             src={"/massater-botox.jpg"}
             className="absolute object-cover duration-700 ease-out group-hover:scale-125 brightness-[0.6]"
           />
@@ -82,9 +82,9 @@ export default function ServiceSquares() {
         </div>
 
         <div className="relative flex items-end w-full h-full p-10 overflow-hidden bg-black aspect-square lg:aspect-auto lg:rounded-br-2xl group ">
-          <Image
+        <img
             alt=""
-            layout="fill"
+            // layout="fill"
             src={"/services/bleaching.jpg"}
             className="absolute object-cover duration-700 ease-out group-hover:scale-125 brightness-[0.6] lg:rounded-br-2xl "
           />

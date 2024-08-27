@@ -33,7 +33,7 @@ export default async function Service({
         {t(`${params.service}.name`)}
       </h1>
       <br className="block sm:hidden" />
-       <Image
+      <img
         alt={t(`${params.service}.name`)}
         width={1000}
         height={600}

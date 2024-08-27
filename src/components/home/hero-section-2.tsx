@@ -11,12 +11,12 @@ export default function HeroSectionTwo() {
   return (
     <div className="min-h-[100vh] py-10 sticky top-0">
     <div className="relative grid w-full min-h-[100vh] h-auto overflow-hidden place-content-center">
-      <Image
+    <img
         style={{ objectPosition: "50% 40%" }}
         className="brightness-[0.70] absolute w-full h-full object-cover"
         alt=""
-        priority
-        layout="fill"
+        // priority
+        // layout="fill"
         src={"/dr-cem-mob.jpg"}
       />
       <div className="z-30 mx-[10vw] mt-[10vh] sm:mt-72 2xl:mt-80 space-y-8">

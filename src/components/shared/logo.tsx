@@ -9,7 +9,7 @@ export default function Logo() {
   const active = segments[2];
   return (
     <LocaleLink href="/">
-      <Image
+     <img
         src={"/logo/logo-white.png"}
         width={800}
         height={400}

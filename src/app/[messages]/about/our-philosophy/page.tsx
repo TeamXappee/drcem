@@ -7,14 +7,14 @@ export default async function Philosophy() {
     <main className="px-4 space-y-20 sm:px-16">
       <div className="h-[30vh] sm:h-[45vh]">
         <div className="absolute top-0 left-0 flex items-center justify-center w-full h-[30vh] sm:h-[45vh] bg-black">
-          <Image
+        <img
             style={{ objectPosition: "50% 35%" }}
             alt={t("img_alt")}
             src="/doctor-cem.jpg"
             width={1400}
             height={800}
-            priority
-            quality={100}
+            // priority
+            // quality={100}
             className="object-cover w-full h-full aspect-video rounded-b-3xl brightness-[0.65] "
           />
         </div>
@@ -25,7 +25,7 @@ export default async function Philosophy() {
           {t("title")}
         </h1>
         <div className="text-center">{t("subHeader")}</div>
-        <Image
+        <img
           alt="Doctor cem baysal after a successful operation."
           src={"/gang.png"}
           width={1200}
@@ -53,7 +53,7 @@ export default async function Philosophy() {
             <h3>{t("about")}</h3>
             <h4 className="">{t("footer")}</h4>
           </div>
-          <Image
+          <img
             alt="Doctor cem baysal Instanpul dental clinic - turkey."
             src={"/philosiphy.png"}
             width={600}

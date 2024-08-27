@@ -49,10 +49,10 @@ export default function HeroSlice() {
                 Or Call us at {`+1 (437) 267-7175`}
               </a>
             </div>
-            <Image
+            <img
               className="absolute right-0 top-0 w-screen  min-h-[500px] object-cover  h-screen scale-x-[-1] sm:scale-x-[1] brightness-[0.5] "
               alt=""
-              priority
+            //  priority
               width={1400}
               height={1400}
               src={"/dr-cem-1.jpg"}
@@ -64,18 +64,18 @@ export default function HeroSlice() {
         <div className="w-full h-full text-white hero-forth-gredient">
           <div className="relative flex flex-col w-full h-full gap-4 mt-[35vh] sm:mt-0 p-6 pt-32 z-100 sm:gap-8 sm:justify-center lg:justify-end sm:p-20 sm:w-2/3 lg:w-1/2">
             <div className="relative flex flex-col-reverse sm:flex-row">
-              <Image
+            <img
                 className=" cursor-auto w-[15rem] sm:w-[30rem] z-20 invert"
                 alt=""
-                priority
+                // priority
                 width={200}
                 height={200}
                 src={"/be (3).svg"}
               />
-              <Image
+            <img
                 className="absolute z-20 hidden -right-36 -top-14 lg:block"
                 alt=""
-                priority
+                // priority
                 width={200}
                 height={200}
                 src={"/rate.svg"}
@@ -100,10 +100,10 @@ export default function HeroSlice() {
             </a>
           </div>
           <div className="absolute top-0 left-0 z-10 w-screen min-h-[500px] h-screen bg-black/30"></div>
-          <Image
+          <img
             className="absolute top-0 right-0 object-cover min-h-[500px] w-screen h-screen brightness-90"
             alt=""
-            priority
+            // priority
             width={1400}
             height={1400}
             src={"/swiper/dn.png"}

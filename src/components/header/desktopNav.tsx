@@ -51,7 +51,7 @@ export function DesktopNav() {
                     className="relative flex flex-col justify-end w-full h-full p-6 no-underline rounded-md outline-none select-none bg-gradient-to-b from-muted/50 to-muted focus:shadow-md"
                     href="/"
                   >
-                    <Image
+                  <img
                       src={"/small-img.jpg"}
                       width={600}
                       height={600}

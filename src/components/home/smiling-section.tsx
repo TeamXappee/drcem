@@ -33,11 +33,11 @@ export default function SmilingSection() {
           </ul>
         </div>
         <div className="relative w-full h-64 sm:w-1/2 sm:h-auto ">
-          <Image
+        <img
             alt="Smiling"
             src="/why-choose-us-2.jpg"
-            layout="fill"
-            objectFit="cover"
+            // layout="fill"
+            // objectFit="cover"
             className="sm:rounded-r-2xl rounded-b-2xl sm:rounded-b-none"
           />
         </div>

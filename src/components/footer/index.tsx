@@ -27,7 +27,7 @@ export default function Footer() {
   return (
     <footer className="space-y-2 text-background">
       <div className="items-center justify-between sm:flex ">
-        <Image
+      <img
           src={"/logo/logo-white.png"}
           width={400}
           height={200}
