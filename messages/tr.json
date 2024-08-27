@@ -393,5 +393,36 @@
   },
   "blogs": {
     "title": "Öne çıkan bloglarımız"
+  },
+  "step1":{
+    "h1":"Hangi tür randevu almak istersiniz?",
+    "New Patient":"Yeni Hasta",
+    "Existing Patient - Dental Cleaning":"Mevcut Hasta - Diş Temizliği",
+    "Existing Patient Dental Treatment":"Mevcut Hasta - Diş Tedavisi",
+    "Emergency":"Acil Durum",
+    "Consultation":"Danışma",
+    "validation":"Lütfen bir randevu türü seçin"
+  },
+  "step2":{
+    "h1":"Bu randevuyu kendiniz için mi yoksa başkası için mi alıyorsunuz?",
+    "Scheduling for myself":"Kendim için randevu alıyorum",
+    "Scheduling for someone else":"Başka biri için randevu alıyorum",
+    "validation":"Lütfen randevuyu kimin için planladığınızı seçin"
+  },
+  "step3":{
+    "h1": "Lütfen tam bilgilerinizi girin",
+    "firstName": "Ad",
+    "Last name": "Soyad",
+    "Email": "E-posta",
+    "Phone number": "Telefon Numarası",
+    "Zip code": "Posta Kodu",
+    "Gender": "Cinsiyet",
+    "Appointment date": "Randevu Tarihi",
+    "Age": "Yaş",
+    "comments or special requests": "Yorumlar veya özel istekler ",
+    "optional": "(isteğe bağlı)",
+    "Is there anything we should know?": "Bilmemiz gereken bir şey var mı?",
+    "Schedule me for": "Beni şu için planlayın ",
+    "Book Appointment": "Randevu Al"
   }
 }

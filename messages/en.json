@@ -320,5 +320,36 @@
   },
   "blogs": {
     "title": "Our featured blogs"
+  },
+  "step1":{
+    "h1":"What type of appointment would you like to schedule?",
+    "New Patient":"New Patient",
+    "Existing Patient - Dental Cleaning":"Existing Patient - Dental Cleaning",
+    "Existing Patient Dental Treatment":"Existing Patient Dental Treatment",
+    "Emergency":"Emergency",
+    "Consultation":"Consultation",
+    "validation":"Please select an appointment type"
+  },
+  "step2":{
+    "h1":"Are you scheduling this appointment for you, or someone else?",
+    "Scheduling for myself":"Scheduling for myself",
+    "Scheduling for someone else":"Scheduling for someone else",
+    "validation":"Please select who are you scheduling the appointment for"
+  },
+  "step3":{
+    "h1":"Please enter your exact information",
+    "firstName":"firstName",
+    "Last name":"Last name",
+    "Email":"Email",
+    "Phone number":"Phone number",
+    "Zip code":"Zip code",
+    "Gender":"Gender",
+    "Appointment date":"Appointment date",
+    "Age":"Age",
+    "comments or special requests":"comments or special requests ",
+    "optional":"(optional)",
+    "Is there anything we should know?":"Is there anything we should know?",
+    "Schedule me for":"Schedule me for ",
+    "Book Appointment":"Book Appointment"
   }
 }

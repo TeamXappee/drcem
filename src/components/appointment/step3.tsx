@@ -4,6 +4,7 @@ import { DatePickerDemo } from "../shared/datePciker";
 import { Button } from "../ui/button";
 import SselectDateBirth from "./selectDateBirth";
 import { toast } from "sonner";
+import { useTranslations } from "next-intl";
 
 export default function Step3({
   setAppointment,
@@ -52,11 +53,12 @@ export default function Step3({
       patient: { ...prev.patient, age: { ...prev.pateint.age, [type]: value } },
     }));
   };
+  const t = useTranslations("step3");
   return (
     <div className="grid items-center justify-start sm:grid-cols-2 gap-[5vw] py-10 ">
       <form onSubmit={handleSubmit} className="space-y-2">
         <h1 className="mb-4 text-2xl font-semibold text-center sm:text-3xl sm:text-left ">
-          Please enter your exact information
+        {t("h1")}
         </h1>
         <div className="flex gap-2">
           <Input
@@ -65,7 +67,7 @@ export default function Step3({
             type="text"
             value={appointment.patient.firstName}
             onChange={handlePatientChange}
-            placeholder="First name"
+            placeholder={t("firstName")}
           />
           <Input
             required
@@ -73,7 +75,7 @@ export default function Step3({
             type="text"
             value={appointment.patient.lastName}
             onChange={handlePatientChange}
-            placeholder="Last name"
+            placeholder={t("Last name")}
           />
         </div>
         <div className="flex gap-2">
@@ -83,7 +85,7 @@ export default function Step3({
             type="email"
             value={appointment.patient.email}
             onChange={handlePatientChange}
-            placeholder="Email"
+            placeholder={t("Email")}
           />
           <Input
             required
@@ -91,7 +93,7 @@ export default function Step3({
             name="phoneNumber"
             value={appointment.patient.phoneNumber}
             onChange={handlePatientChange}
-            placeholder="Phone number"
+            placeholder={t("Phone number")}
           />
         </div>
         <div className="flex gap-2">
@@ -101,7 +103,7 @@ export default function Step3({
             name="zipCode"
             value={appointment.patient.zipCode}
             onChange={handlePatientChange}
-            placeholder="Zip code"
+            placeholder={t("Zip code")}
           />
           <Input
             required
@@ -109,12 +111,12 @@ export default function Step3({
             name="gender"
             value={appointment.patient.gender}
             onChange={handlePatientChange}
-            placeholder="Gender"
+            placeholder={t("Gender")}
           />
         </div>
         <div className="grid grid-cols-2 gap-2">
           <DatePickerDemo
-            text="Appointment date"
+            text={t("Appointment date")}
             dataKey="selectedDate"
             handleDateChange={handlePickDates}
           />
@@ -124,19 +126,19 @@ export default function Step3({
             name="age"
             value={appointment.patient.age}
             onChange={handlePatientChange}
-            placeholder="Age"
+            placeholder={t("Age")}
           />
         </div>
         <br />
         <div className="space-y-2 text-lg ">
           <label className="block ">
-            comments or special requests {`(optional)`}
+          {t("comments or special requests")} {t("optional")}
           </label>
           <textarea
             name="comments"
             onChange={(e) => handlePatientChange(e)}
             className="w-full p-4 border rounded-xl border-indigo-950/20 max-h-[200px]"
-            placeholder="Is there anything we should know?"
+            placeholder={t("Is there anything we should know?")}
           />
         </div>
         <Button
@@ -145,8 +147,8 @@ export default function Step3({
           className="relative z-20 w-full h-12 text-lg"
         >
           {appointment.patient.selectedDate
-            ? `Schedule me for ${new Date(appointment.patient.selectedDate).toLocaleDateString()}`
-            : "Book Appointment"}
+            ? `${t("Schedule me for")} ${new Date(appointment.patient.selectedDate).toLocaleDateString()}`
+            : t("Book Appointment")}
         </Button>
       </form>
       <iframe

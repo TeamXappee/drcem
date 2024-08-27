@@ -1,4 +1,5 @@
 import { ArrowDown } from "lucide-react";
+import { useTranslations } from "next-intl";
 import React from "react";
 import { toast } from "sonner";
 
@@ -11,16 +12,18 @@ export default function NextStep({
   appointment: any;
   activeStepIdx: number;
 }) {
+  const step1 = useTranslations("step1");
+  const step2 = useTranslations("step2");
   const handleNextStep = () => {
     switch (activeStepIdx) {
       case 0:
         if (!appointment.type.length) {
-          return toast.error("Please select an appointment type");
+          return toast.error(step1("validation"));
         }
         break;
       case 1:
         if (!appointment.for.length) {
-          return toast.error("Please select who are you scheduling the appointment for");
+          return toast.error(step2("validation"));
         }
         break;
     }
