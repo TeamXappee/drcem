@@ -7,12 +7,12 @@ export default function ServiceSquares() {
   const t = useTranslations("Home.allservices");
   return (
     <div className="grid gap-1 space-y-1 text-white lg:grid-cols-2 sm:space-y-0 lg:h-[600px]">
-      <section className="relative flex items-start p-10 overflow-hidden bg-black sm:p-20 lg:rounded-l-2xl group ">
+      <section className="relative flex items-start p-10 overflow-hidden bg-black sm:p-20 lg:rounded-l-2xl group image-container">
       <img
           alt=""
           // layout="fill"
           src={"/small-img.jpg"}
-          className="absolute object-cover duration-1000  ease-in-out brightness-[0.6] group-hover:scale-150 lg:rounded-l-2xl"
+               className="absolute object-cover w-full h-full duration-700 ease-out group-hover:scale-125 brightness-[0.6]"
         />
         <div className="relative z-10 space-y-4">
           <p className="text-4xl font-bold lg:text-5xl ">
@@ -26,8 +26,8 @@ export default function ServiceSquares() {
           </Button>
         </div>
       </section>
-      <section className="grid grid-rows-4 gap-1 sm:grid-rows-2 sm:grid-cols-2 ">
-        <div className="relative flex items-end w-full h-full p-10 overflow-hidden bg-black aspect-square lg:aspect-auto group ">
+      <section className="grid grid-rows-4 gap-1 sm:grid-rows-2 sm:grid-cols-2 image-container">
+        <div className="relative flex items-end w-full h-full p-10 overflow-hidden bg-black aspect-square lg:aspect-auto group image-container">
         <img
             alt=""
             // layout="fill"
@@ -44,7 +44,7 @@ export default function ServiceSquares() {
             </Button>
           </div>
         </div>
-        <div className="relative flex items-end w-full h-full p-10 overflow-hidden bg-black aspect-square lg:aspect-auto lg:rounded-tr-2xl group ">
+        <div className="relative flex items-end w-full h-full p-10 overflow-hidden bg-black aspect-square lg:aspect-auto lg:rounded-tr-2xl group image-container">
         <img
             alt=""
             // layout="fill"
@@ -63,7 +63,7 @@ export default function ServiceSquares() {
             </Button>
           </div>
         </div>
-        <div className="relative flex items-end w-full h-full p-10 overflow-hidden bg-black aspect-square lg:aspect-auto group ">
+        <div className="relative flex items-end w-full h-full p-10 overflow-hidden bg-black aspect-square lg:aspect-auto group image-container">
         <img
             alt=""
             // layout="fill"
@@ -81,7 +81,7 @@ export default function ServiceSquares() {
           </div>
         </div>
 
-        <div className="relative flex items-end w-full h-full p-10 overflow-hidden bg-black aspect-square lg:aspect-auto lg:rounded-br-2xl group ">
+        <div className="relative flex items-end w-full h-full p-10 overflow-hidden bg-black aspect-square lg:aspect-auto lg:rounded-br-2xl group image-container">
         <img
             alt=""
             // layout="fill"
