@@ -14,7 +14,7 @@ export default async function About() {
             height={800}
             className="object-cover w-full h-full aspect-video rounded-b-3xl brightness-[0.65] "
           />
-        </div>
+        </div>c
       </div>
       <section className="">
         <div className="space-y-14">
