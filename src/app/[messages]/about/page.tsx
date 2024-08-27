@@ -7,13 +7,11 @@ export default async function About() {
     <main className="px-[10vw] space-y-20 ">
       <div className="h-[30vh] sm:h-[45vh]">
         <div className="absolute top-0 left-0 flex items-center justify-center w-full h-[30vh] sm:h-[45vh] bg-black">
-          <img
+          <img 
             alt={t("img1-alt")}
             src="/about.png"
             width={1400}
             height={800}
-            priority
-            quality={100}
             className="object-cover w-full h-full aspect-video rounded-b-3xl brightness-[0.65] "
           />
         </div>
@@ -50,14 +48,14 @@ export default async function About() {
             </p>
           </article>
         </div>
-        <Image
+        <img
           style={{ objectPosition: "50% 25%" }}
           alt={t("img2-alt")}
           src="/learner.png"
           width={1000}
           height={800}
-          priority
-          quality={100}
+          // priority
+          // quality={100}
           className="object-cover   m-auto h-full  aspect-square rounded-3xl brightness-[0.95]  mt-7"
         />
       </section>
@@ -73,13 +71,13 @@ export default async function About() {
             </p>
           </article>
         </div>
-        <Image
+        <img
           alt={t("img3-alt")}
           src="/lecturing.png"
           width={1000}
           height={800}
-          priority
-          quality={100}
+          // priority
+          // quality={100}
           className="object-cover w-[45%] rounded-3xl brightness-[0.95]  mt-7"
         />
       </section>
@@ -87,13 +85,13 @@ export default async function About() {
         <p className="text-[3rem] lg:text-[4rem] 2xl:text-[6rem]  mx-auto tracking-tighter leading-none font-aileron text-center text-cyan-950">
           {t("technique-title")}{" "}
         </p>
-        <Image
+        <img
           alt={t("img2-alt")}
           src="/technique.png"
           width={1000}
           height={800}
-          priority
-          quality={100}
+          // priority
+          // quality={100}
           className="object-cover m-auto h-full aspect-video rounded-3xl brightness-[0.95]  mt-7"
         />
         <article className="grid gap-4 text-lg my-14 -">
@@ -133,13 +131,13 @@ export default async function About() {
         {t("Award-title")}
         </p>
 
-        <Image
+        <img
           alt={t("Award-img-alt")}
           src="/award.png"
           width={1000}
           height={800}
-          priority
-          quality={100}
+          // priority
+          // quality={100}
           className="object-contain sm:w-1/4 m-auto h-full aspect-square rounded-3xl brightness-[0.95] mt-7"
         />
         <article className="grid gap-4 mx-auto text-lg my-14">
