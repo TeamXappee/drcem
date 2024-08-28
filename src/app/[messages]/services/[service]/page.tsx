@@ -41,7 +41,7 @@ export default async function Service({
         className="object-cover aspect-video rounded-xl "
         src={`${t(`${params.service}.image`)}`}
       />
-       <p className="text-2xl" dangerouslySetInnerHTML={{ __html: formatContent(t(`${params.service}.content`)) }} />
+       <p className="text-xl" dangerouslySetInnerHTML={{ __html: formatContent(t(`${params.service}.content`)) }} />
      
     </main>
 
