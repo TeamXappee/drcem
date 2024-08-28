@@ -5,13 +5,13 @@ import React from "react";
 export default function WhyChooseUs() {
   const t = useTranslations("Home.whychooseus");
   return (
-    <div className="flex flex-col-reverse items-start gap-10 pt-12 sm:grid sm:grid-cols-5">
+    <div className="flex flex-col-reverse items-center gap-10 pt-12 sm:grid sm:grid-cols-5">
      <img
         alt="Happy Patents"
         src="/why-choose-us.jpg"
         width={1000}
         height={1400}
-        className="sm:w-[100%] w-full rounded-xl col-span-2 sticky top-0"
+        className="sm:w-[100%] sm:h-[85%] w-full rounded-xl col-span-2 sticky top-0"
       />
       <article className="col-span-3 space-y-6">
         <div className="space-y-4">
@@ -24,7 +24,7 @@ export default function WhyChooseUs() {
         </div>
         <p className="p-1 text-lg leading">
         {t("p1")}
-          <br />  {t("p2")}
+          <br /> <br />  {t("p2")}
           <a className="font-medium text-cyan-800">
           {t("p1a1")}
           </a>
@@ -43,7 +43,7 @@ export default function WhyChooseUs() {
           {t("p3a4")}
           </a>{" "}
           {t("p4")}
-          <br /> {t("p5")}
+          <br /> <br /> {t("p5")}
         </p>
         {/* <p className="p-1 text-lg leading">
           At Dr. Cem Baysal&apos;s clinic, we have been providing exceptional

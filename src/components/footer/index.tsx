@@ -29,9 +29,9 @@ export default function Footer() {
       <div className="items-center justify-between sm:flex ">
       <img
           src={"/logo/logo-white.png"}
-          width={400}
-          height={200}
-          className="-ml-3 w-36 sm:w-40 2xl:w-44"
+          width={1200}
+          height={1000}
+          className="-ml-3 w-52 sm:w-56 2xl:w-60"
           alt=""
         />
         <section className="flex  sm:flex-row flex-col sm:items-center justify-end gap-[5vw] sm:mt-4 w-fit ">

@@ -1,3 +1,4 @@
+import WhyChooseUs from "@/components/home/why-choose-us";
 import { getTranslations } from "next-intl/server";
 import Image from "next/image";
 
@@ -7,7 +8,7 @@ export default async function Philosophy() {
     <main className="px-4 space-y-20 sm:px-16">
       <div className="h-[30vh] sm:h-[45vh]">
         <div className="absolute top-0 left-0 flex items-center justify-center w-full h-[30vh] sm:h-[45vh] bg-black">
-        <img
+          <img
             style={{ objectPosition: "50% 35%" }}
             alt={t("img_alt")}
             src="/doctor-cem.jpg"
@@ -48,19 +49,24 @@ export default async function Philosophy() {
           </div>
         </div>
 
-        <div className="flex flex-col-reverse items-center gap-10 sm:grid sm:grid-cols-5">
+        <div className="flex flex-col-reverse gap-10 sm:grid sm:grid-cols-5 items-center">
           <div className="col-span-3 space-y-10">
             <h3>{t("about")}</h3>
-            <h4 className="">{t("footer")}</h4>
+            <h4>{t("footer")}</h4>
           </div>
-          <img
-            alt="Doctor cem baysal Instanpul dental clinic - turkey."
-            src={"/philosiphy.png"}
-            width={600}
-            height={800}
-            className="object-cover w-full col-span-2 my-4 rounded-xl"
-          />
+          <div className=" col-span-2">
+            <img
+              alt="Doctor cem baysal Istanbul dental clinic - turkey."
+              src={"/philosiphy.png"}
+              width={1000}
+              height={1000}
+              className="w-full h-auto max-h-[500px] sm:max-h-[300px] rounded-xl object-cover justify-center"
+            />
+          </div>
+
         </div>
+
+
       </article>
     </main>
   );

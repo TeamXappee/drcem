@@ -20,13 +20,13 @@ export default function ClinicSection() {
             {t("cta")} <ArrowRight size={20} />{" "}
           </LocaleLink>
         </div>
-        <div className="relative w-full h-64 sm:w-1/2 sm:h-auto">
+        <div className="relative w-full h-64 sm:w-1/2 sm:h-auto image-container">
         <img
             src={"/dental-clinic.png"}
             alt="our clinic"
             // layout="fill"
             // objectFit="cover"
-            className="rounded-t-2xl sm:rounded-l-xl sm:rounded-r-none"
+            className="rounded-t-2xl sm:rounded-l-xl sm:rounded-r-none object-cover"
           />
         </div>
       </div>

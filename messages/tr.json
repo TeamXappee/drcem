@@ -32,7 +32,7 @@
       "name": "Hizmetler"
     },
     "faqs": {
-      "name": "sıkça Sorulan Sorular"
+      "name": "Sıkça Sorulan Sorular"
     },
     "lang": {
       "name": "Dil"
@@ -122,7 +122,7 @@
       "name": "Diş Fenerleri",
       "href": "/dental-veneers",
       "image": "/services/porcelain-laminate-veneers.jpg",
-      "content": "Porselen, dişlerin görünümünü geliştirmek için kullanılan, dişlere benzer renkte ince laminat kabuklardan yapılmış kaplamalardır. Dişlerin ön kısmını kaplayarak renk değişikliği, çatlama, kırılma veya boşluk gibi görsel kusurları düzeltirler. Bu prosedür diş planlaması, algılar, yapay veneerler, bağlantı ve son modifikasyonları içermektedir. Veneerler uzun ömürlüdür, lekelere karşı dayanıklıdır ve tam olarak gerçek dişler gibi görünür. İyi diş hijyeni ve sık sık muayeneler, onların yönetimi için gereklidir. Gülümserken görünen dişlerinizin renk değişikliği ve şekil bozukluğu nedeniyle size acı veriyorsa, doğal dişlerinize dokunmadan dişlerinizi yeniden şekillendirebilirsiniz. Dişlerinizin çok ince bir tabakasının aşındıktan sonra dişlerinizi de yeniden onarabilirsiniz. Uzun yıllardır, bu yöntem düzensiz, küçük, kırık veya eşitsiz dişleri onarmak için kullanılmaktadır. Son yıllarda, porselendeki gelişmeler dişleri daha sağlam ama zarif bir şekilde restore etme imkanı sağlamıştır.",
+      "content": "Porselen, dişlerin görünümünü geliştirmek için kullanılan, dişlere benzer renkte ince laminat kabuklardan yapılmış kaplamalardır. Dişlerin ön kısmını kaplayarak renk değişikliği, çatlama, kırılma veya boşluk gibi görsel kusurları düzeltirler. Bu prosedür diş planlaması, algılar, yapay veneerler, bağlantı ve son modifikasyonları içermektedir. Veneerler uzun ömürlüdür, lekelere karşı dayanıklıdır ve tam olarak gerçek dişler gibi görünür. İyi diş hijyeni ve sık sık muayeneler, onların yönetimi için gereklidir. Gülümserken görünen dişlerinizin renk değişikliği ve şekil bozukluğu nedeniyle size acı veriyorsa, doğal dişlerinize dokunmadan dişlerinizi yeniden şekillendirebilirsiniz.\n\n  Dişlerinizin çok ince bir tabakasının aşındıktan sonra dişlerinizi de yeniden onarabilirsiniz. Uzun yıllardır, bu yöntem düzensiz, küçük, kırık veya eşitsiz dişleri onarmak için kullanılmaktadır. Son yıllarda, porselendeki gelişmeler dişleri daha sağlam ama zarif bir şekilde restore etme imkanı sağlamıştır.",
       "related": {
         "1": "/colored-teeth"
       },
@@ -143,7 +143,7 @@
       "name": "Periodontal plastik cerrahi",
       "href": "/periodontal-plastic-surgery",
       "image": "/services/bleaching.jpg",
-      "content": "Periodontal plastik cerrahisi, periodontal dokunun ve ağız boşluğundaki çevre dokuların görünümünü iyileştirmeyi amaçlar. Yaygın işlemler arasında diş kontürü, taç büyütme, diş nakli, kırışıklık artırma ve yumuşak doku pigment kaybı bulunmaktadır. Bu işlemler, gülümseme tasarımını geliştirmek, anormallikleri düzeltmek ve diş eti sağlığını yeniden kazandırmak amacıyla yapılmaktadır. Özel durumlarınız için en iyi tedavi yöntemini belirlemek üzere eğitimli bir ortodontistle konuşmak kritik öneme sahiptir.",
+      "content": "Periodontal plastik cerrahisi, periodontal dokunun ve ağız boşluğundaki çevre dokuların görünümünü iyileştirmeyi amaçlar. Yaygın işlemler arasında diş kontürü, taç büyütme, diş nakli, kırışıklık artırma ve yumuşak doku pigment kaybı bulunmaktadır. \n\n Bu işlemler, gülümseme tasarımını geliştirmek, anormallikleri düzeltmek ve diş eti sağlığını yeniden kazandırmak amacıyla yapılmaktadır. Özel durumlarınız için en iyi tedavi yöntemini belirlemek üzere eğitimli bir ortodontistle konuşmak kritik öneme sahiptir.",
       "related": {},
       "alt": ""
     },
@@ -151,7 +151,7 @@
       "name": "Diş implantları",
       "href": "/dental-implants",
       "image": "/services/implants.jpg",
-      "content": "Titanyumdan yapılan ve gerçek diş köklerine benzer şekilde şekillendirilen diş implantları, kaybedilen dişlerin yerine geçmek için ideal bir seçenek sunar. %95-98 başarı oranıyla, kalıcı ve doğal görünümlü bir onarım sunuyorlar. Avantajlar, çene yapısının korunması, daha iyi diş sağlığı ve daha iyi çiğneme ile etkileşimdir. Esneklikleri, tek diş değişimlerinin yanı sıra tam çene onarımlarına da olanak tanır. Kesin tanı, doğru yerleştirme ve kapsamlı hasta bakımı, başarı için hepsi hayati öneme sahiptir.",
+      "content": "Titanyumdan yapılan ve gerçek diş köklerine benzer şekilde şekillendirilen diş implantları, kaybedilen dişlerin yerine geçmek için ideal bir seçenek sunar. %95-98 başarı oranıyla, kalıcı ve doğal görünümlü bir onarım sunuyorlar.\n\n  Avantajlar, çene yapısının korunması, daha iyi diş sağlığı ve daha iyi çiğneme ile etkileşimdir. Esneklikleri, tek diş değişimlerinin yanı sıra tam çene onarımlarına da olanak tanır. Kesin tanı, doğru yerleştirme ve kapsamlı hasta bakımı, başarı için hepsi hayati öneme sahiptir.",
       "related": {
         "1": "/porcelain-fillings",
         "2": "/composite-fillings"
@@ -162,7 +162,7 @@
       "name": "Taçlar ve Köprüler",
       "href": "/crowns-bridges",
       "image": "/services/fillings.jpg",
-      "content": "Kronlar ve köprüler, diş restorasyonunda önemli bir rol oynar çünkü hem işlevsel diş sorunlarına çözümler sunarlar. Kırık dişlerin yerine geçen, koruyucu kaplara benzeyen kronlar, porselen veya metal alaşımları gibi malzemeler kullanarak uzun ömür ve doğal bir görünüm sağlar. Eksik dişlerin yerini alan köprüler, taçlar veya implantlar ile bir arada tutulan yapay dişlerden oluşmaktadır. Çiğneme yeteneğini geliştirirken, aynı zamanda çevredeki dişlerin hareket etmesini de engellerler. Doldurulamayacak kadar büyük diş hasarlarını onarabilirler. Bir diş kaybı durumu olarak, hasar görmüş dişi porselenle onarabiliriz. Bu tür bir onarıma köprü denir. Bir diş taç için hazırlanırken kullanılan iki ana diş küçültme türü vardır. Onlar: Aşama aşama diş küçültme. Adım Adım Olmayan (Step-by-Step) Diş hekimliği. Non-Step Diş Hekimliği'nde daha maliyet etkin metal destekli kronlar ve köprüler hazırlanabilir. Zirkonyum ve Alüminyum Oksit gibi estetik bir altyapı kullanıyorsanız, Adım Adım Diş Hekimliği yöntemini tercih etmelisiniz. Adım Adım Diş Hekimliği sürecinde yapılan restorasyonlar diş etlerine baskı yapmadığı için dişin doğasına uygun, daha sağlıklı sonuçlar sunar. Bugün, Zirkonyum/Alüminyum Oksit Altyapısı tercih edilmektedir. Metal destekli kornea taçları üzerinde kornea taçları ve pellucid kornea taçları",
+      "content": "Kronlar ve köprüler, diş restorasyonunda önemli bir rol oynar çünkü hem işlevsel diş sorunlarına çözümler sunarlar. Kırık dişlerin yerine geçen, koruyucu kaplara benzeyen kronlar, porselen veya metal alaşımları gibi malzemeler kullanarak uzun ömür ve doğal bir görünüm sağlar. Eksik dişlerin yerini alan köprüler, taçlar veya implantlar ile bir arada tutulan yapay dişlerden oluşmaktadır.\n\nÇiğneme yeteneğini geliştirirken, aynı zamanda çevredeki dişlerin hareket etmesini de engellerler. Doldurulamayacak kadar büyük diş hasarlarını onarabilirler. Bir diş kaybı durumu olarak, hasar görmüş dişi porselenle onarabiliriz. Bu tür bir onarıma köprü denir. Bir diş taç için hazırlanırken kullanılan iki ana diş küçültme türü vardır.\n\nOnlar: Aşama aşama diş küçültme. Adım Adım Olmayan (Step-by-Step) Diş hekimliği. Non-Step Diş Hekimliği'nde daha maliyet etkin metal destekli kronlar ve köprüler hazırlanabilir. Zirkonyum ve Alüminyum Oksit gibi estetik bir altyapı kullanıyorsanız, Adım Adım Diş Hekimliği yöntemini tercih etmelisiniz.\n\nAdım Adım Diş Hekimliği sürecinde yapılan restorasyonlar diş etlerine baskı yapmadığı için dişin doğasına uygun, daha sağlıklı sonuçlar sunar.\n\nBugün, Zirkonyum/Alüminyum Oksit Altyapısı tercih edilmektedir. Metal destekli kornea taçları üzerinde kornea taçları ve pellucid kornea taçları.",
       "related": {
         "1": "/services/porcelain-fillings",
         "2": "/services/composite-fillings"
@@ -173,7 +173,7 @@
       "name": "Derhal diş implantları yerleştirme",
       "href": "/immediate-dental-implant-placement",
       "image": "/services/porcelain-fillings.jpg",
-      "content": "Porselen dolgu, çürümüş dişleri onarmak için diş hekimliğinde kullanılan seramik bir tamirdir. Gerçek dişlere benziyorlar ve dayanıklılar, uyumlu da. Estetik çekicilikleri ve dişlerin yapısını koruma yetenekleri nedeniyle popülerler. Porselen dolgu (inlay ve onlay) daha büyük diş çürükleri için güç, hassas uyum ve estetik çekiciliği nedeniyle önerilmektedir. Bir üretim tesisinde özelleştirilen bu dişler, doğal dişlerle aynı renk ve forma sahip olup, kalıcı ve estetik açıdan çekici bir seçenek sunmaktadır.",
+      "content": "Porselen dolgu, çürümüş dişleri onarmak için diş hekimliğinde kullanılan seramik bir tamirdir. Gerçek dişlere benziyorlar ve dayanıklılar, uyumlu da. Estetik çekicilikleri ve dişlerin yapısını koruma yetenekleri nedeniyle popülerler.\n\n  Porselen dolgu (inlay ve onlay) daha büyük diş çürükleri için güç, hassas uyum ve estetik çekiciliği nedeniyle önerilmektedir. Bir üretim tesisinde özelleştirilen bu dişler, doğal dişlerle aynı renk ve forma sahip olup, kalıcı ve estetik açıdan çekici bir seçenek sunmaktadır.",
       "related": {
         "1": "/porcelain-laminate-veneers"
       },
@@ -183,7 +183,7 @@
       "name": "Gülümse Makeover",
       "href": "/smile-makeover",
       "image": "/services/composite-fillings.jpg",
-      "content": "Gülüş yenileme, gülüşünüzün görünümünü iyileştiren kişiselleştirilmiş bir estetik diş hekimliği tedavisidir. Diş beyazlatma, veneer, diş implantları ve ortodonti gibi çeşitli işlemleri içerebilir; bunların hepsi renk değişikliği, yanlış hizalanma veya eksik dişler gibi sorunları çözmek için tasarlanmıştır. Tedavi olanakları, rahatsızlık derecesine bağlı olarak değişiklik gösterir ve dişlere yapıştırma, kaplama ve dolgu, kanal tedavisi veya diş çekimi gibi işlemleri içerebilir. Hızlı diş değerlendirmesi, ek hasarları önlemek ve rahatsızlığı hafifletmek için kritik öneme sahiptir. Gerçek dişlere benziyorlar ve dayanıklılar, uyumlu da. Estetik çekicilikleri ve dişlerin yapısını koruma yetenekleri nedeniyle popülerler. Bir üretim tesisinde özelleştirilen bu dişler, doğal dişlerle aynı renk ve forma sahip olup, kalıcı ve estetik açıdan çekici bir seçenek sunmaktadır. Amaç, yüz hatlarınızla uyumlu ve kişisel beklentilerinize uygun, güzel ve etkileyici bir gülümseme elde etmektir.",
+      "content": "Gülüş yenileme, gülüşünüzün görünümünü iyileştiren kişiselleştirilmiş bir estetik diş hekimliği tedavisidir. Diş beyazlatma, veneer, diş implantları ve ortodonti gibi çeşitli işlemleri içerebilir; bunların hepsi renk değişikliği, yanlış hizalanma veya eksik dişler gibi sorunları çözmek için tasarlanmıştır.\n\nTedavi olanakları, rahatsızlık derecesine bağlı olarak değişiklik gösterir ve dişlere yapıştırma, kaplama ve dolgu, kanal tedavisi veya diş çekimi gibi işlemleri içerebilir. Hızlı diş değerlendirmesi, ek hasarları önlemek ve rahatsızlığı hafifletmek için kritik öneme sahiptir.\n\nGerçek dişlere benziyorlar ve dayanıklılar, uyumlu da. Estetik çekicilikleri ve dişlerin yapısını koruma yetenekleri nedeniyle popülerler. Bir üretim tesisinde özelleştirilen bu dişler, doğal dişlerle aynı renk ve forma sahip olup, kalıcı ve estetik açıdan çekici bir seçenek sunmaktadır.\n\nAmaç, yüz hatlarınızla uyumlu ve kişisel beklentilerinize uygun, güzel ve etkileyici bir gülümseme elde etmektir.",
       "related": {
         "1": "/fillings"
       },
@@ -191,7 +191,7 @@
     }
   },
   "FAQs": {
-    "title": "sıkça Sorulan Sorular",
+    "title": "Sıkça Sorulan Sorular",
     "full-length": "Sıkça Sorulan Sorular",
     "1": {
       "q": "Randevu nasıl alabilirim?",
@@ -257,7 +257,7 @@
       "service3": "Diş implantı",
       "service4": "Masajcı Botox",
       "service5": "Gülümse Makeover",
-      "morebtn": "Daha fazla"
+      "morebtn": "Daha Fazla Bilgi"
     },
     "services": {
       "h1": "Hizmetlerimizi keşfedin",

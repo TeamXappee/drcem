@@ -1,5 +1,6 @@
 import { getTranslations } from "next-intl/server";
 import Image from "next/image";
+import { Fragment } from "react";
 
 export default async function Clinic() {
   const t = await getTranslations("Clinic");
@@ -8,9 +9,9 @@ export default async function Clinic() {
       <div className="h-[30vh] sm:h-[45vh]">
         <div className="absolute top-0 left-0 flex items-center justify-center w-full h-[30vh] sm:h-[45vh] bg-black">
         <img
-            style={{ objectPosition: "50% 35%" }}
+            style={{ objectPosition: "80% 65%" }}
             alt={t("img_alt")}
-            src={"/pointing.png"}
+            src={"/about-clinic.jpg"}
             width={1400}
             height={800}
             // priority
@@ -27,7 +28,21 @@ export default async function Clinic() {
 
         <h2 className="">{t("subHeader")}</h2>
         {["1", "2", "3", "4"].map((i) => (
-          <p key={i}>{t(`content.${i}`)}</p>
+          <Fragment key={i}>
+             <p className={`${i == "3" ? "mt-10" : ""}`}>{t(`content.${i}`)}</p>
+           {i === "2" && (
+              <div className="sm:w-full">
+                <Image
+                  src={"/about-clinic-2.jpg"} // Replace with the actual image source
+                  alt={t(`content.${i}_img_alt`)}
+                  width={500} // Adjust width and height as needed
+                  height={300}
+               className="object-cover m-auto h-full aspect-video rounded-3xl brightness-[0.95]  mt-7 sm:w-full"
+                />
+              </div>
+            )}
+          </Fragment>
+         
         ))}
       </article>
     </main>

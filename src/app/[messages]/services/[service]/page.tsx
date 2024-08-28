@@ -26,9 +26,10 @@ export default async function Service({
   params: { service: string };
 }) {
   const t = await getTranslations("Services");
+  const formatContent = (text: string) => text.replace(/\n/g, '<br />');
   // const nextLink = t(`${params.service}.nextLink`);
   return (
-    <main className="sm:text-center space-y-4 sm:space-y-8 flex flex-col justify-center items-center px-[10vw] relative top-[5vh] sm:top-[15vh] pb-[20vh] pt-[10vh] ">
+    <main className="space-y-4 sm:space-y-8 flex flex-col justify-center items-center px-[10vw] relative top-[5vh] sm:top-[15vh] pb-[20vh] pt-[10vh] ">
       <h1 className=" leading-none text-[2.5rem] lg:text-[4rem] 2xl:text-[3rem] font-aileron font-semibold text-cyan-950">
         {t(`${params.service}.name`)}
       </h1>
@@ -40,7 +41,7 @@ export default async function Service({
         className="object-cover aspect-video rounded-xl "
         src={`${t(`${params.service}.image`)}`}
       />
-      <p className="text-2xl">{t(`${params.service}.content`)}</p>
+       <p className="text-2xl" dangerouslySetInnerHTML={{ __html: formatContent(t(`${params.service}.content`)) }} />
      
     </main>
 
