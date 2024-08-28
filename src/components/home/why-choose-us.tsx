@@ -11,7 +11,7 @@ export default function WhyChooseUs() {
         src="/why-choose-us.jpg"
         width={1000}
         height={1400}
-        className="sm:w-[100%] sm:h-[85%] w-full rounded-xl col-span-2 sticky top-0"
+        className="sm:w-[100%] sm:h-[90%] w-full rounded-xl col-span-2 sticky top-0 object-fill"
       />
       <article className="col-span-3 space-y-6">
         <div className="space-y-4">
