@@ -2,103 +2,161 @@ import Image from "next/image";
 import { Button } from "../ui/button";
 import LocaleLink from "../shared/localeLink";
 import { useTranslations } from "next-intl";
+import SectionTitle from "../shared/section-title";
 
 export default function ServiceSquares() {
   const t = useTranslations("Home.allservices");
-  return (
-    <div className="grid gap-1 space-y-1 text-white lg:grid-cols-2 sm:space-y-0 lg:h-[600px]">
-      <section className="relative flex items-start p-10 overflow-hidden bg-black sm:px-20 lg:rounded-l-2xl group image-container">
-      <img
-          alt=""
-          // layout="fill"
-          src={"/small-img.jpg"}
-               className="absolute object-cover w-full h-full duration-700 ease-out group-hover:scale-125 brightness-[0.6]"
-        />
-        <div className="relative z-10 space-y-4">
-          <p className="text-4xl font-bold lg:text-5xl ">
-          {t("service1")}
-          </p>
+  const home = useTranslations("Home");
 
-          <Button size={"lg"} className="bg-transparent" variant={"outline"}>
-            <LocaleLink href="/services/periodontal-plastic-surgery">
-                {t("morebtn")}
-            </LocaleLink>
-          </Button>
-        </div>
-      </section>
-      <section className="grid grid-rows-4 gap-1 sm:grid-rows-2 sm:grid-cols-2 image-container">
-        <div className="relative flex items-start w-full h-full p-10 overflow-hidden bg-black aspect-square lg:aspect-auto group image-container">
-        <img
+  return (
+    <div
+      className="z-[4] relative space-y-10 bg-white text-cyan-950 grid items-center"
+      id="cases"
+    >
+      <div className="space-y-2">
+        <SectionTitle>{home("services.h1")}</SectionTitle>
+        <p className="text-base text-center text-muted-foreground sm:mx-[8vw] lg:mx-[25vw]">
+          {home("services.h2")}
+        </p>
+      </div>
+
+      <div className="grid gap-1 space-y-1 text-white lg:grid-cols-2 sm:space-y-0 lg:h-[600px]">
+        <section className="relative flex items-start p-10 overflow-hidden bg-black sm:px-20 lg:rounded-l-2xl group image-container">
+          <img
             alt=""
-            // layout="fill"
-            src={"/dental-veneers.png"}
+            src={"/small-img.jpg"}
             className="absolute object-cover w-full h-full duration-700 ease-out group-hover:scale-125 brightness-[0.6]"
           />
-          <div className="relative z-10 space-y-2">
-            <p className="text-xl font-medium sm:text-base lg:text-xl">
-            {t("service2")}
-            </p>
-
-            <Button size={"sm"} className="bg-transparent" variant={"outline"}>
-              <LocaleLink href="/services/dental-veneers">  {t("morebtn")}</LocaleLink>
-            </Button>
-          </div>
-        </div>
-        <div className="relative flex items-start w-full h-full p-10 overflow-hidden bg-black aspect-square lg:aspect-auto lg:rounded-tr-2xl group image-container">
-        <img
-            alt=""
-            // layout="fill"
-            src={"/services/sm-1.png"}
-            className="absolute object-cover w-full h-full duration-700 ease-out group-hover:scale-125 brightness-[0.6] lg:rounded-tr-2xl "
-          />
-          <div className="relative z-10 space-y-2">
-            <p className="text-xl font-medium sm:text-base lg:text-xl">
-            {t("service3")}
-            </p>
-
-            <Button size={"sm"} className="bg-transparent" variant={"outline"}>
-              <LocaleLink href="/services/dental-implants">
+          <div className="relative z-10 space-y-4">
+            <p className="text-4xl font-bold lg:text-5xl">{t("service1")}</p>
+            <Button size={"lg"} className="bg-transparent" variant={"outline"}>
+              <LocaleLink href="/services/periodontal-plastic-surgery">
                 {t("morebtn")}
               </LocaleLink>
             </Button>
           </div>
-        </div>
-        <div className="relative flex items-end w-full h-full p-10 overflow-hidden bg-black aspect-square lg:aspect-auto group image-container">
-        <img
-            alt=""
-            // layout="fill"
-            src={"/massater-botox.jpg"}
-            className="absolute object-cover duration-700 ease-out group-hover:scale-125 brightness-[0.6]"
-          />
-          <div className="relative z-10 space-y-2">
-            <p className="text-xl font-medium sm:text-base lg:text-xl">
-            {t("service4")}
-            </p>
+        </section>
 
-            <Button size={"sm"} className="bg-transparent" variant={"outline"}>
-              <LocaleLink href="/services/masseter-botox">  {t("morebtn")}</LocaleLink>
-            </Button>
+        <section className="grid grid-rows-6 gap-1 sm:grid-rows-3 sm:grid-cols-2 image-container">
+          {/* Service 2 */}
+          <div className="relative flex items-start w-full h-full p-10 overflow-hidden bg-black aspect-square lg:aspect-auto group image-container">
+            <img
+              alt=""
+              src={"/dental-veneers.png"}
+              className="absolute object-cover w-full h-full duration-700 ease-out group-hover:scale-125 brightness-[0.6]"
+            />
+            <div className="relative z-10 space-y-2">
+              <p className="text-xl font-medium sm:text-base lg:text-xl">
+                {t("service2")}
+              </p>
+              <Button size={"sm"} className="bg-transparent" variant={"outline"}>
+                <LocaleLink href="/services/dental-veneers">
+                  {t("morebtn")}
+                </LocaleLink>
+              </Button>
+            </div>
           </div>
-        </div>
 
-        <div className="relative flex items-end w-full h-full p-10 overflow-hidden bg-black aspect-square lg:aspect-auto lg:rounded-br-2xl group image-container">
-        <img
-            alt=""
-            // layout="fill"
-            src={"/services/bleaching.jpg"}
-            className="absolute object-cover duration-700 ease-out group-hover:scale-125 brightness-[0.6] lg:rounded-br-2xl "
-          />
-          <div className="relative z-10 space-y-2">
-            <p className="text-xl font-medium sm:text-base lg:text-xl">
-            {t("service5")}
-            </p>
-
-            <Button size={"sm"} className="bg-transparent" variant={"outline"}>
-              <LocaleLink href="/services/smile-makeover">  {t("morebtn")}</LocaleLink>
-            </Button>
+          {/* Service 3 */}
+          <div className="relative flex items-start w-full h-full p-10 overflow-hidden bg-black aspect-square lg:aspect-auto lg:rounded-tr-2xl group image-container">
+            <img
+              alt=""
+              src={"/services/sm-1.png"}
+              className="absolute object-cover w-full h-full duration-700 ease-out group-hover:scale-125 brightness-[0.6] lg:rounded-tr-2xl"
+            />
+            <div className="relative z-10 space-y-2">
+              <p className="text-xl font-medium sm:text-base lg:text-xl">
+                {t("service3")}
+              </p>
+              <Button size={"sm"} className="bg-transparent" variant={"outline"}>
+                <LocaleLink href="/services/dental-implants">
+                  {t("morebtn")}
+                </LocaleLink>
+              </Button>
+            </div>
           </div>
-        </div>
-      </section>
+
+          {/* Service 6 */}
+          <div className="relative flex items-end w-full h-full p-10 overflow-hidden bg-black aspect-square lg:aspect-auto lg:rounded-br-2xl group image-container">
+            <img
+              alt=""
+              src={"/crowns.png"}
+              className="absolute object-cover duration-700 ease-out group-hover:scale-125 brightness-[0.6] lg:rounded-br-2xl"
+            />
+            <div className="relative z-10 space-y-2">
+              <p className="text-xl font-medium sm:text-base lg:text-xl">
+                {t("service6")}
+              </p>
+              <Button size={"sm"} className="bg-transparent" variant={"outline"}>
+                <LocaleLink href="/services/crowns-bridges">
+                  {t("morebtn")}
+                </LocaleLink>
+              </Button>
+            </div>
+          </div>
+
+
+
+          {/* Service 5 */}
+          <div className="relative flex items-end w-full h-full p-10 overflow-hidden bg-black aspect-square lg:aspect-auto group image-container">
+            <img
+              alt=""
+              src={"services/bleaching.jpg"}
+              className="absolute object-cover duration-700 ease-out group-hover:scale-125 brightness-[0.6]"
+            />
+            <div className="relative z-10 space-y-2">
+              <p className="text-xl font-medium sm:text-base lg:text-xl">
+                {t("service5")}
+              </p>
+              <Button size={"sm"} className="bg-transparent" variant={"outline"}>
+                <LocaleLink href="/services/smile-makeover">
+                  {t("morebtn")}
+                </LocaleLink>
+              </Button>
+            </div>
+          </div>
+
+
+          {/* Service 4 */}
+          <div className="relative flex items-end w-full h-full p-10 overflow-hidden bg-black aspect-square lg:aspect-auto group image-container">
+            <img
+              alt=""
+              src={"/massater-botox.jpg"}
+              className="absolute object-cover duration-700 ease-out group-hover:scale-125 brightness-[0.6]"
+            />
+            <div className="relative z-10 space-y-2">
+              <p className="text-xl font-medium sm:text-base lg:text-xl">
+                {t("service4")}
+              </p>
+              <Button size={"sm"} className="bg-transparent" variant={"outline"}>
+                <LocaleLink href="/services/masseter-botox">
+                  {t("morebtn")}
+                </LocaleLink>
+              </Button>
+            </div>
+          </div>
+
+
+          {/* Service 7 */}
+          <div className="relative flex items-end w-full h-full p-10 overflow-hidden bg-black aspect-square lg:aspect-auto group image-container">
+            <img
+              alt=""
+              src={"/immediate.jpeg"}
+              className="absolute object-cover duration-700 ease-out group-hover:scale-125 brightness-[0.6] lg:rounded-br-2xl"
+            />
+            <div className="relative z-10 space-y-2">
+              <p className="text-xl font-medium sm:text-base lg:text-xl">
+                {t("service7")}
+              </p>
+              <Button size={"sm"} className="bg-transparent" variant={"outline"}>
+                <LocaleLink href="/services/immediate-dental-implant-placement">
+                  {t("morebtn")}
+                </LocaleLink>
+              </Button>
+            </div>
+          </div>
+        </section>
+      </div>
     </div>
   );
 }

@@ -59,7 +59,7 @@
       "name": "Masseter Botox",
       "href": "/masseter-botox",
       "image": "/services/colored-teeth.jpg",
-      "content": "Situation for a dentist concerns people who have teeth that demonstrate unusual yellowing or oxidation. External factors include smoking, food and beverage stains and fundamental causes such as as medication or trauma, decaying teeth, over repairs, and illnesses. Professional cleanings, whitening processes, restorations for the teeth such as crowns or veneers, and other treatments relevant to the cause may all be used in treatment. Diagnosis is critical to effective medical treatment.",
+      "content": "Botulinum toxin is injected into the masseter muscles to relax the jawline, treat bruxism (tooth grinding), and improve TMJ issues. The procedure reduces muscle size, resulting in a more contoured face, and helps alleviate jaw pain and strain.\n\n The operation is simple and requires little downtime, with effects appearing within 1-2 weeks and last 3-6 months. It is critical to have it done by a skilled specialist to guarantee both security and efficiency.",
       "related": {
         "1": "/bleaching",
         "2": "/porcelain-laminate-veneers"
@@ -149,7 +149,7 @@
     "hero": {
       "h1": "BE. CONFIDENT.",
       "h2": "Experience World-Class Dental Care with Dr. Cem Baysal.",
-      "h3": "University Professor, Oral Diagnosis, Radiology, advanced surgery, cosmetic treatments, treatment planning, and Implantology.",
+      "h3": "Oral Diagnosis, Radiology, advanced surgery, cosmetic treatments, treatment planning, Implantology, endodontic, orthodontic, periodontic, prosthodontic,and Botox",
       "cta1": "About Dr. Baysal's Expertise",
       "cta2": "Book an appointment"
     },
@@ -184,6 +184,8 @@
       "service3": "Dental Implant",
       "service4": "Massater Botox",
       "service5": "Smile Makeover",
+      "service6": "Crowns and Bridges",
+      "service7": "Immediate Dental Implant Placement",
       "morebtn": "Learn More"
     },
     "services": {

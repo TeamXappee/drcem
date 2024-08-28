@@ -132,7 +132,7 @@
       "name": "Masseter Botox",
       "href": "/masseter-botox",
       "image": "/services/colored-teeth.jpg",
-      "content": "Bir diş hekimi için durum, dişlerinde alışılmadık sararma veya oksidasyon gösteren insanları ilgilendirir. Dış faktörler arasında sigara içmek, yiyecek ve içecek lekeleri ve ilaç kullanımı veya travma, çürüyen dişler, aşırı onarımlar ve hastalıklar gibi temel nedenler bulunmaktadır. Tedavi sürecinde profesyonel temizlikler, dişlerin beyazlatma işlemleri, kuronlar veya veneerler gibi restorasyonlar ve konu ile ilgili diğer tedavi yöntemleri kullanılabilir. Tanı, etkili tıbbi tedavi için kritik öneme sahiptir.",
+      "content": "Botulinum toksini, çiğneme kaslarına enjekte edilerek çene hattını gevşetmek, bruksizm (diş gıcırdatma) tedavi etmek ve TMJ sorunlarını iyileştirmek amacıyla kullanılır. Bu prosedür, kas boyutunu azaltarak daha belirgin bir yüz hatları oluşturur ve çene ağrısını ve gerginliğini hafifletmeye yardımcı olur.\n\n Operasyon basit ve az bir iyileşme süresi gerektiriyor, etkileri 1-2 hafta içinde ortaya çıkıyor ve 3-6 ay sürüyor. Hem güvenliği hem de verimliliği sağlamak için bunun yetenekli bir uzman tarafından yapılması kritik öneme sahiptir.",
       "related": {
         "1": "/bleaching",
         "2": "/porcelain-laminate-veneers"
@@ -222,7 +222,7 @@
     "hero": {
       "h1": "OLMAK KENDİNDEN EMİN",
       "h2": "Dr. Cem Baysal ile Birinci Sınıf Diş Bakımını Deneyimleyin.",
-      "h3": "Üniversite Profesörü, Oral Diagnoz, Radyoloji, ileri cerrahi, kozmetik tedaviler, tedavi planlaması ve İmplantoloji",
+      "h3": "Ağız Tanısı, Radyoloji, ileri cerrahi, estetik tedaviler, tedavi planlaması, İmplantoloji, endodonti, ortodonti, periodontoloji, protez diş hekimliği ve Botox.",
       "cta1": "Dr. Baysal'ın Uzmanlık Alanı Hakkında",
       "cta2": "Randevu alın"
     },
@@ -257,6 +257,8 @@
       "service3": "Diş implantı",
       "service4": "Masajcı Botox",
       "service5": "Gülümse Makeover",
+      "service6": "Crowns and Bridges",
+      "service7": "Derhal diş implantları yerleştirme",
       "morebtn": "Daha Fazla Bilgi"
     },
     "services": {

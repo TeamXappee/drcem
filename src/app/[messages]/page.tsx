@@ -14,7 +14,7 @@ export default async function Home() {
   return (
     <main className="relative w-full  -top-[80px] overflow-hidden">
       <HeroSectionTwo />
-      <div className="relative z-20 pt-10 space-y-20 bg-white sm:space-y-32 rounded-t-2x">
+      <div className="relative z-20  space-y-20 bg-white sm:space-y-32 rounded-t-2x">
         <PaddingX>
           <WhyChooseUs />
         </PaddingX>
@@ -25,7 +25,7 @@ export default async function Home() {
         <PaddingX>
         <ServiceSquares />
 
-          <Services />
+          {/* <Services /> */}
         </PaddingX>
         <PaddingXDesktop>
           <ClinicSection />
