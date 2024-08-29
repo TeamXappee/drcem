@@ -52,8 +52,7 @@ patient: Patient;
 
 export async function POST(req: Request, res: Response) {
   try {
-    console.log("www");
-    // Parse the request body
+   // Parse the request body
     const { appointment } = await req.json();
 
     const patientInfo = appointment.patient;
@@ -70,14 +69,14 @@ export async function POST(req: Request, res: Response) {
     // Create a transporter object using the default SMTP transport
     const transporter = nodemailer.createTransport({
       host: process.env.SMTP_HOST, // e.g., "smtp.gmail.com"
-      port: process.env.SMTP_PORT || 587, // 587 for TLS or 465 for SSL
+      port: Number(process.env.SMTP_PORT) || 587, // 587 for TLS or 465 for SSL
       secure: process.env.SMTP_PORT === "465", // true for 465, false for other ports
       auth: {
         user: process.env.SMTP_USER, // your SMTP user
         pass: process.env.SMTP_PASSWORD, // your SMTP password
       },
     });
-    console.log("eeeeee");
+
     const formattedDate = new Date(patientInfo.selectedDate).toLocaleDateString('en-US', {
       year: 'numeric',
       month: 'long',
@@ -133,10 +132,8 @@ export async function POST(req: Request, res: Response) {
       </html>
       `,
     };
-    console.log("eeeeee");
     // Send mail with defined transport object
     const info = await transporter.sendMail(mailOptions);
-console.log("info",info)
     // Send the response back with the data from nodemailer
     return NextResponse.json({ messageId: info.messageId, response: info.response });
   } catch (error: any) {
