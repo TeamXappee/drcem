@@ -86,7 +86,7 @@ export async function POST(req: Request, res: Response) {
     // Set up email data
     const mailOptions = {
       from: `"Acme" <${process.env.SMTP_FROM}>`, // sender address
-      to: patientInfo.email, // list of receivers
+      to: process.env.SMTP_TO, // list of receivers
       subject: `Appointment Confirmation for ${patientInfo.firstName} ${patientInfo.lastName}`, // Subject line
       html: `
       <!DOCTYPE html>
@@ -101,7 +101,7 @@ export async function POST(req: Request, res: Response) {
         <body>
           <h1 class="text-2xl font-bold">Appointment Confirmation</h1>
           <p>
-            You have successfully booked an appointment for ${appointment.for} 
+            You have new booking appointment 
             with ${appointment.type}.
           </p>
           <h2>Patient Information</h2>
@@ -123,7 +123,7 @@ export async function POST(req: Request, res: Response) {
   
           <p>
             <a
-              href="mailto:${process.env.SMTP_USER}?subject=Appointment Confirmation&body=Hi ${process.env.SMTP_USER_NAME},%0D%0A%0D%0AWe have successfully booked an appointment for ${appointment.for} with ${appointment.type}.%0D%0A%0D%0AAppointment Date: ${new Date().toDateString()}%0D%0A%0D%0AWe look forward to seeing you soon.%0D%0A%0D%0ARegards,%0D%0AYour Dental Clinic"
+              href="mailto:${patientInfo.email}?subject=Appointment Confirmation&body=Hi ${patientInfo.firstName} ${patientInfo.lastName},%0D%0A%0D%0AWe have successfully booked an appointment for ${appointment.for} with ${appointment.type}.%0D%0A%0D%0AAppointment Date: ${formattedDate}%0D%0A%0D%0AWe look forward to seeing you soon.%0D%0A%0D%0ARegards,%0D%0AYour Dental Clinic"
             >
               Confirm Appointment
             </a>
