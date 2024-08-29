@@ -2,12 +2,13 @@ import * as React from "react";
 import { Html, Tailwind } from "@react-email/components";
 
 export function AppointmentEmail(props: {
-  url: any;
+  // url: any;
   type: string;
   appointmentFor: string;
   patient: any;
 }) {
-  const { url, type, patient, appointmentFor } = props;
+  //const { url, type, patient, appointmentFor } = props;
+  const {  type, patient, appointmentFor } = props;
 
   return (
     <Html lang="en">
@@ -23,7 +24,7 @@ export function AppointmentEmail(props: {
         }}
       >
         <div>
-          {url}
+          {/* {url} */}
           <h1 className="text-2xl font-bold">Appointment Confirmation</h1>
           <p>
             You have successfully booked an appointment for {appointmentFor}{" "}
