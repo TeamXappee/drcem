@@ -35,7 +35,7 @@ export default function Step3({
     e.preventDefault();
     try {
       toast.info("Loading..");
-      const res = await fetch("https://www.drcembaysal.com/api/send", {
+      const res = await fetch("http://localhost:3000/api/send", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

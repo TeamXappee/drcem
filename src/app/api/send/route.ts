@@ -85,7 +85,7 @@ export async function POST(req: Request, res: Response) {
 
     // Set up email data
     const mailOptions = {
-      from: `"Acme" <${process.env.SMTP_FROM}>`, // sender address
+      from: `"Dr.cem" <${process.env.SMTP_FROM}>`, // sender address
       to: process.env.SMTP_TO, // list of receivers
       subject: `Appointment Confirmation for ${patientInfo.firstName} ${patientInfo.lastName}`, // Subject line
       html: `
