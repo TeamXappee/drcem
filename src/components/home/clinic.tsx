@@ -7,11 +7,14 @@ import { ArrowRight } from "lucide-react";
 
 export default function ClinicSection() {
   const t = useTranslations("Clinic");
+
   return (
     <div className="w-full ">
       <div className="flex flex-col-reverse justify-between text-cyan-50 sm:flex-row-reverse">
         <div className="w-full py-12 space-y-6 sm:p-10 sm:w-1/2 sm:py-16 bg-cyan-800 sm:rounded-r-2xl rounded-b-2xl sm:rounded-l-none">
-          <SectionTitle className="mx-4 text-cyan-50 sm:text-left">{t("title")}</SectionTitle>
+          <SectionTitle className="mx-4 text-cyan-50 sm:text-left"> <span
+    dangerouslySetInnerHTML={{ __html: t("title").replace(/\n/g, "<br />") }}
+  /></SectionTitle>
           <p className="mx-4 text-center sm:text-left ">{t("subHeader")}</p>
           <LocaleLink
             href="/about/clinic"

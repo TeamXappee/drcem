@@ -11,10 +11,10 @@ export default function Logo() {
     <LocaleLink href="/">
      <img
         src={"/logo/logo-white.png"}
-        width={800}
-        height={400}
+        width={1400}
+        height={1000}
         alt=""
-        className={`w-40 sm:w-48 relative -left-5 sm:-ml-0 ${active === undefined || active === "about" ? "" : "invert"}`}
+        className={`w-40 sm:w-64 relative -left-5 sm:-ml-0 ${active === undefined || active === "about" ? "" : "invert"}`}
       />
     </LocaleLink>
   );

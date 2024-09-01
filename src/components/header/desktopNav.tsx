@@ -100,6 +100,32 @@ export function DesktopNav() {
           </NavigationMenuTrigger>
           <NavigationMenuContent className="relative backdrop-blur-lg bg-white/10 ">
             <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
+            <li className="row-span-3">
+                <NavigationMenuLink asChild>
+                  <LocaleLink
+                    className="relative flex flex-col justify-end w-full h-full p-6 no-underline rounded-md outline-none select-none bg-gradient-to-b from-muted/50 to-muted focus:shadow-md"
+                    href="/"
+                  >
+                  <img
+                      src={"/doctor-cem.jpg"}
+                      width={600}
+                      height={600}
+                      alt=""
+                      className="absolute top-0 left-0 object-cover w-full h-full rounded-md brightness-75"
+                    />
+                    <div
+                      className={`z-30 hover:text-white focus:text-white text-white `}
+                    >
+                      <div className={`grid mt-4 mb-2 text-2xl font-bold `}>
+                        <span>{t("Cem.name")}</span>
+                      </div>
+                      <p className="leading-tight text-white text-md">
+                        {t("Cem.title2")}
+                      </p>
+                    </div>
+                  </LocaleLink>
+                </NavigationMenuLink>
+              </li>
               {keys.map((item) => (
                 <ListItem
                   key={t(`Services.${item}.name`)}
