@@ -12,12 +12,12 @@ import nodemailer from "nodemailer";
 //     const {appointment} = await req.json();
 
 //     const patientInfo = appointment.patient;
-    // const emailContent = AppointmentEmail({
-    //   url: "https://resend.dev",
-    //   type: appointment.type,
-    //   appointmentFor: appointment.for,
-    //   patient: patientInfo,
-    // });
+// const emailContent = AppointmentEmail({
+//   url: "https://resend.dev",
+//   type: appointment.type,
+//   appointmentFor: appointment.for,
+//   patient: patientInfo,
+// });
 
 //     const data = await resend.emails.send({
 //       from: "Acme <onboarding@resend.dev>",
@@ -43,16 +43,16 @@ interface Patient {
 }
 
 interface AppointmentEmailProps {
-url: string;
-appointmentFor: string;
-type: string;
-patient: Patient;
+  url: string;
+  appointmentFor: string;
+  type: string;
+  patient: Patient;
 }
 
 
 export async function POST(req: Request, res: Response) {
   try {
-   // Parse the request body
+    // Parse the request body
     const { appointment } = await req.json();
 
     const patientInfo = appointment.patient;
@@ -99,7 +99,14 @@ export async function POST(req: Request, res: Response) {
           </style>
         </head>
         <body>
-          <h1 class="text-2xl font-bold">Appointment Confirmation</h1>
+          <img
+          src="https://www.drcembaysal.com/logo/logo.png"
+          width=300
+          height=100
+        />
+        <div style="color: #000;">
+                  <h1 class="text-2xl font-bold">Appointment Confirmation</h1>
+          
           <p>
             You have new booking appointment 
             with ${appointment.type}.
@@ -128,6 +135,8 @@ export async function POST(req: Request, res: Response) {
               Confirm Appointment
             </a>
           </p>
+        </div>
+
         </body>
       </html>
       `,
